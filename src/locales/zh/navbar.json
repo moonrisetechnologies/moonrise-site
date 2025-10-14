@@ -1,0 +1,38 @@
+{
+  "brand": "MoonRise Technologies",
+  "menu": {
+    "home": "首页",
+    "moonplus": "Moon+",
+    "wallet": "MoonWallet",
+    "tokenomics": "Tokenomics",
+    "transparency": "透明度",
+    "about": "关于",
+    "documents": "文档"
+  },
+  "buttons": {
+    "community": "社区",
+    "presale": "预售"
+  },
+  "aria": {
+    "menu": "打开菜单",
+    "language": "选择语言",
+    "close": "关闭",
+    "openDocuments": "打开文档"
+  },
+  "closeButton": "关闭",
+  "documents": {
+    "title": "文档 • MoonRise",
+    "leadMin": "官方地址与文档。EN（PDF）版本为区块浏览器的权威版本，其余见“透明度”页。",
+    "labels": {
+      "token": "MoonRise 代币",
+      "master": "MasterVault 合约"
+    },
+    "actions": {
+      "copy": "复制",
+      "copied": "已复制！",
+      "openPdf": "打开白皮书（EN）",
+      "goTransparency": "前往透明度"
+    },
+    "noteMin": "若译文与英文（PDF）不一致，以英文版为准。"
+  }
+}

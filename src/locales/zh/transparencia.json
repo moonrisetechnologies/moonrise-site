@@ -1,0 +1,156 @@
+{
+  "title": "MoonRise 透明度",
+  "intro": "每一行都可审计。没有承诺——只有交付。以下为带有链上证明的合约、哈希和钱包。",
+
+  "protection": {
+    "summary": "MoonRise 用逻辑与代码守护经济。操作遵守额度、应用冷却、避免滥用，并将每次行为转化为真实流动性——全部可实时可见。",
+    "internalEconomyTitle": "智能内部经济",
+    "internalEconomy": "生态中的每一次流转都会自动补充流动性。没有静止：每一次点击都在增强系统——自动化、透明、可扩展。",
+    "badges": ["智能流动性", "图表稳定", "真实生态", "防砸盘锁"]
+  },
+
+  "dna": [
+    "✅ 开源代码与可审计合约——任何人都可在 BscScan 验证。零中心化控制。",
+    "✅ 流转即产出流动性——无外部背书，可证明的内部结构。",
+    "✅ 100% 独立——不依赖银行或中介。由智能合约控制与执行。",
+    "✅ 主动反巨鲸防护——拦截可疑动作，保护持有者与图表。"
+  ],
+
+  "proof_title": "🚀 真实且可审计的证据",
+  "proof_intro": "我们不索取信任。执行在区块链上可实时追踪——合约、哈希与公共文件。",
+  "proof": [
+    "🔥 部署时初始销毁 17 亿 MRS——BscScan 上的公开哈希。",
+    "🧠 动态卖出税（3.5% ↔ 7.0%）根据链上成交量自动调整。",
+    "🔐 创始人 1 年时间锁——期限前的任何转出将由合约回滚。",
+    "🛠️ 公开基础设施——不可变更的官方地址与可验证的链上规则。"
+  ],
+
+  "governance": {
+    "title": "临时且透明的治理",
+    "intro": "初始阶段设有可见且受限的 owner：启停交易、触发紧急刹车并冻结链上规则。",
+    "can": {
+      "title": "owner 可做",
+      "items": [
+        "在风险时暂停/恢复合约。",
+        "配置路由并标记 AMM 交易对。",
+        "在公开范围内调整反机器人/反砸盘保护。",
+        "在冻结前授予/移除手续费与冷却期豁免。",
+        "冻结配置（AMM、豁免、参数）使之不可更改。"
+      ]
+    },
+    "cannot": {
+      "title": "owner 不可做",
+      "items": [
+        "新增代币或提高总量（无铸币；仅自愿销毁）。",
+        "在时间锁前转移创始人钱包或缩短锁定期。",
+        "取消已标记的 AMM 或更换官方钱包（流动性、开发、储备等）。",
+        "手动设定税率——合约将在 3.5%–7.0% 区间自动调整。",
+        "撤销冻结或突破安全上限。"
+      ]
+    }
+  },
+
+  "ops": {
+    "title": "MoonRise 运营",
+    "body": "开放合约。官方钱包。规则无人工干预执行。每个关键动作都会实时留下链上痕迹。"
+  },
+
+  "liquidity": {
+    "title": "流动性政策与市场防御",
+    "items": [
+      "按日历与预设规则释放流动性。",
+      "合约内置反巨鲸与反砸盘机制，保护持有者与图表。",
+      "手续费与操作上链记录（BscScan），完全透明。",
+      "通过 MasterVault 的稳定基金与自动锁仓。"
+    ]
+  },
+
+  "release_schedule": {
+    "title": "代币释放计划",
+    "total_prefix": "该钱包预计总量：",
+    "units": { "million": "百万", "billion": "十亿", "token_suffix": "MRS" }
+  },
+
+  "lock_reason": {
+    "title": "为何锁仓？",
+    "paragraph_1": "用于流动性、营销、开发、生态与储备的代币均在 MasterVault 中按时间锁自动管理。不到时间不动用。",
+    "paragraph_2": "MasterVault 仅有两笔紧急额度——最后一笔流动性（3.5 亿）与最后一笔生态（5,000 万）。仅当预售标记为售罄（presaleSoldOut == true）时，可为提前上线或关键技术支持而提前释放。全部链上留痕。",
+    "paragraph_3": "合约公开、可审计、不可变更。可在区块链上逐行核验。",
+    "button": "在 BscScan 查看 MasterVault 合约"
+  },
+
+  "wallets_title": "项目官方钱包",
+  "wallets_lead": "以下地址构成 MoonRise 的公共基础设施。可追踪、可验证，并在区块链上实时可见。",
+
+  "wallet_groups": {
+    "operacao": "运营",
+    "crescimento": "增长",
+    "estabilidade": "稳定",
+    "distribuicao": "初始资源分配",
+    "controle": "控制"
+  },
+
+  "wallets": {
+    "ecossistema_presale": "生态钱包 — 预售 (62%)",
+    "liquidez_presale": "流动性钱包 — 预售 (23%)",
+    "dev_init_ops": "初始运营钱包 (15%)",
+
+    "liquidez": "流动性钱包",
+    "ecossistema": "生态钱包",
+    "desenvolvimento": "开发钱包",
+    "marketing": "营销钱包",
+    "reserva": "储备钱包",
+    "fundador": "创始人钱包",
+    "admin": "行政钱包（Owner）",
+
+    "view_on_explorer": "在 BscScan 查看"
+  },
+
+  
+  "wallets_desc": {
+    "ecossistema_presale": "预售的 62% 用于生态扩张：RWA、App 与战略集成。",
+    "liquidez_presale": "预售的 23% 用于建池、开市，并在启动时护盘。",
+    "dev_init_ops": "15% 用于覆盖基础启动成本：研发、基础设施、合规，以及对初期交付的支持。",
+
+    "liquidez": "持续流动性：池维护、盘口深度与价格稳定。",
+    "ecossistema": "统筹 MoonRise 各业务线并执行多业务战略运营。",
+    "desenvolvimento": "研究、安全与核心模块，聚焦性能与规模化。",
+    "marketing": "拉新与品牌权威，围绕 ROI 目标与全球增长。",
+    "reserva": "用于稳定、市场冲击与计划性扩张的战略储备。",
+    "fundador": "代币锁定 1 年（时间锁）。不按规则不得移动。",
+    "admin": "临时治理，合约内设公开且可追溯的限额。"
+  },
+
+  "wallets_notes": {
+    "admin": "建议：多签 + 时间锁；敏感权限可审计。"
+  },
+
+  "wallets_locked_note": "部署后锁仓 1 年",
+
+  "docs_title": "📂 官方文件与合约",
+  "docs": {
+    "token_label": "代币合约",
+    "mastervault_label": "MasterVault 合约"
+  },
+  "docs_links": {
+    "token_explorer": "(在 BscScan 查看)"
+  },
+
+  "whitepaper": { "label": "阅读白皮书" },
+  "disclaimer": { "trigger": "查看免责声明" },
+
+  "aria": { "copy_address": "复制地址" },
+
+  "footer": "© MOONRISE TECHNOLOGIES LLC (WY, USA). 保留所有权利。",
+
+  "seo": {
+    "meta_title": "MoonRise — 链上透明度",
+    "meta_description": "合约、钱包与链上证明。没有承诺——只有交付。"
+  },
+
+  "kpi": {
+    "wallets_hint": "公开且可审计的地址",
+    "locked_hint": "带时间锁的代币",
+    "schedule_hint": "预计总量"
+  }
+}

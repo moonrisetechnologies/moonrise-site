@@ -1,0 +1,77 @@
+{
+  "hero": {
+    "title": "The MoonRise presale finances infrastructure. Not speculation.",
+    "description": "The MRS token is issued and delivered via smart contract on a public network, with clear phases and on-chain settlement. Acquisition in BNB/USDT (BEP-20). At the end of the presale, 100% of unsold tokens will be burned on-chain.",
+    "button": "Access the Presale Dashboard"
+  },
+  "phases": {
+    "title": "Presale Phases",
+    "counterTitle": "Tokens sold",
+    "notificationsLink": "🔔 Join the Notification Group",
+    "activeBadge": "Current Phase",
+    "phaseLabel": "Phase",
+    "supplyLabel": "Supply",
+    "priceLabel": "Price"
+  },
+  "buttons": {
+    "tokenomics": "View Tokenomics",
+    "transparency": "View Transparency",
+    "helper": "Access full model details and the project's social audit."
+  },
+  "network": {
+    "title": "Why are we on BNB Chain?",
+    "description1": "We chose BNB Chain for its robust security, proven stability, and global liquidity. It ensures low fees, instant execution, and broad compatibility for investors.",
+    "description2": "Our ecosystem already runs with reliability and efficiency — simple to join, easy to track, and fully verifiable in real time."
+  },
+  "structure": {
+    "title": "How does the presale work?",
+    "token": "Token: MoonRise (MRS) — BEP-20 standard",
+    "smart": "100% automated execution via smart contract (no manual custody)",
+    "phases5": "7 progressive phases with public prices and limits",
+    "delivery": "Instant token delivery after purchase",
+    "minimum": "Minimum transaction amount: 5 USDT or equivalent in BNB",
+    "minTx": "Minimum transaction amount: {{usdt}} USDT or {{bnb}} BNB (≈ {{fiat}})",
+    "network": "Network used: BNB Smart Chain (BEP-20)",
+    "payment": "Accepted payment methods: BNB and USDT (BEP-20)",
+    "burn": "At the end of the presale, 100% of unsold tokens will be burned on-chain",
+    "contractLink": "View presale contract on BscScan"
+  },
+  "purpose": {
+    "title": "Why does this exist?",
+    "description": "MRS is the foundation of a complete financial ecosystem. Joining the presale means taking a founder's position — funding liquidity, infrastructure, and products that generate real long-term value."
+  },
+  "utility": {
+    "title": "MRS Token Utility",
+    "use1": "Official currency of the MoonRise ecosystem",
+    "use2": "Liquidity base and capital formation for expansion",
+    "use3": "Governance unit and participation in strategic decisions",
+    "use4": "Access to ecosystem utilities and benefits when applicable",
+    "use5": "Future integration with real-world assets (RWA)"
+  },
+  "security": {
+    "title": "Security & Transparency",
+    "point1": "All delivery is 100% automatic via smart contract",
+    "point2": "No manual custody. No external promises",
+    "point3": "Auditable contract running publicly on-chain",
+    "point4": "Liquidity opened in a controlled way to ensure stability"
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "step1": "Presale open",
+    "step2": "Initial liquidity",
+    "step3": "Expansion of MoonRise products",
+    "step4": "Integration with Moon+ (RWA)",
+    "step5": "Global ecosystem scaling"
+  },
+  "call": {
+    "title": "Thousands will watch. Few will found.",
+    "description": "If you made it here, it’s because you were set apart to build. This is the call of the bold: to finance and found a sovereign infrastructure for the next generations."
+  },
+  "legal": {
+    "disclaimer": "This page is informational and does not represent a registered public offering. Participation in the presale is voluntary and occurs directly via on-chain smart contract."
+  },
+  "footer": {
+    "rights": "MOONRISE TECHNOLOGIES LLC (WY, USA). All rights reserved."
+  },
+  "closeButton": "Close"
+}

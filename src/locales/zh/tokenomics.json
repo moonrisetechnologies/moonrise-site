@@ -1,0 +1,71 @@
+{
+  "title": "MoonRise Tokenomics",
+  "intro": "MoonRise 旨在通过结构确保平衡、透明和可持续增长。没有任何代币被免费分发 — 一切都以目标、战略和长期愿景进行规划。链上可审计执行，无空投，无额外代币发行。",
+
+  "buttons": {
+    "transparency": "透明性",
+    "contract": "在 BscScan 查看合约"
+  },
+
+  "supplyLabels": {
+    "name": "名称",
+    "symbol": "符号",
+    "network": "网络",
+    "total": "总代币量",
+    "burned": "已销毁代币",
+    "circulating": "流通供应量"
+  },
+  "supply": {
+    "name": "MoonRise",
+    "symbol": "MRS",
+    "network": "BNB Smart Chain (BEP-20)"
+  },
+
+  "distributionTitle": "代币分配",
+  "distributionNote": "每一部分都有明确的去向。无多余，无不足 — 只有战略与在代码中得到验证的执行。",
+
+  "labels": {
+    "amount": "数量"
+  },
+
+  "badges": {
+    "founderLock": "代币锁定 1 年"
+  },
+
+  "slices": {
+    "pool": "流动性 (Pool)",
+    "presale": "预售",
+    "burned": "已销毁代币",
+    "marketing": "市场营销",
+    "dev": "开发",
+    "ecosystem": "MoonRise 生态系统",
+    "reserve": "战略储备",
+    "founder": "创始人"
+  },
+
+  "kpis": {
+    "total": "总代币量",
+    "circulating": "销毁后 (流通中)",
+    "burned": "已销毁",
+    "lockedCirc": "锁定的流通量 (链上)",
+    "presale": "合约中的预售"
+  },
+
+  "fundsTitle": "募集资金用途",
+  "fundsText": "所有资源均以完全可追溯的方式分配。每一份贡献都能强化生态系统，确保稳定，并推动可持续增长。",
+
+  "funds": [
+    { "title": "MoonRise 生态系统", "desc": "持续再投资于技术、产品和全球扩张。网络增长转化为真实价值。" },
+    { "title": "稳定储备", "desc": "战略储备，用于应对波动并在任何情况下保持健康的流动性。" },
+    { "title": "市场流动性", "desc": "强大的流动性确保安全、稳定且具备深度的交易。" },
+    { "title": "持有者价值提升", "desc": "智能执行将稳定性转化为每位持有者的真实价值增长。" }
+  ],
+
+  "closing": {
+    "phrase": "100% 公开且可审计的执行。无额外代币发行。透明性与锁定机制由代码保障。"
+  },
+
+  "warnings": {
+    "totalNot100": "切片总和为 {{total}}。请检查输入。"
+  }
+}

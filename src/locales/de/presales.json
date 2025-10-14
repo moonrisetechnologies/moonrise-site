@@ -1,0 +1,77 @@
+{
+  "hero": {
+    "title": "Der MoonRise-Vorverkauf finanziert Infrastruktur. Keine Spekulation.",
+    "description": "Der MRS-Token wird über einen Smart Contract im öffentlichen Netzwerk ausgegeben und geliefert, mit klaren Phasen und On-Chain-Abwicklung. Erwerb in BNB/USDT (BEP-20). Am Ende des Vorverkaufs werden 100% der nicht verkauften Tokens on-chain verbrannt.",
+    "button": "Zum Vorverkaufs-Dashboard"
+  },
+  "phases": {
+    "title": "Vorverkaufsphasen",
+    "counterTitle": "Verkaufte Tokens",
+    "notificationsLink": "🔔 Benachrichtigungsgruppe beitreten",
+    "activeBadge": "Aktuelle Phase",
+    "phaseLabel": "Phase",
+    "supplyLabel": "Angebot",
+    "priceLabel": "Preis"
+  },
+  "buttons": {
+    "tokenomics": "Tokenomics anzeigen",
+    "transparency": "Transparenz anzeigen",
+    "helper": "Greifen Sie auf die vollständigen Modelldetails und das soziale Audit des Projekts zu."
+  },
+  "network": {
+    "title": "Warum sind wir auf der BNB Chain?",
+    "description1": "Wir haben die BNB Chain wegen ihrer robusten Sicherheit, bewährten Stabilität und globalen Liquidität gewählt. Sie garantiert niedrige Gebühren, sofortige Ausführung und breite Kompatibilität für Investoren.",
+    "description2": "Unser Ökosystem läuft bereits zuverlässig und effizient — einfach teilzunehmen, leicht zu verfolgen und vollständig in Echtzeit überprüfbar."
+  },
+  "structure": {
+    "title": "Wie funktioniert der Vorverkauf?",
+    "token": "Token: MoonRise (MRS) — BEP-20 Standard",
+    "smart": "100% automatisierte Ausführung über Smart Contract (keine manuelle Verwahrung)",
+    "phases5": "7 progressive Phasen mit öffentlichen Preisen und Limits",
+    "delivery": "Sofortige Lieferung der Tokens nach dem Kauf",
+    "minimum": "Mindestbetrag pro Transaktion: 5 USDT oder entsprechend BNB",
+    "minTx": "Mindestbetrag pro Transaktion: {{usdt}} USDT oder {{bnb}} BNB (≈ {{fiat}})",
+    "network": "Verwendetes Netzwerk: BNB Smart Chain (BEP-20)",
+    "payment": "Akzeptierte Zahlungsmethoden: BNB und USDT (BEP-20)",
+    "burn": "Am Ende des Vorverkaufs werden 100% der nicht verkauften Tokens on-chain verbrannt",
+    "contractLink": "Vorverkaufsvertrag auf BscScan ansehen"
+  },
+  "purpose": {
+    "title": "Warum existiert das?",
+    "description": "MRS ist die Grundlage eines vollständigen Finanzökosystems. Die Teilnahme am Vorverkauf bedeutet, die Gründerrolle einzunehmen — Liquidität, Infrastruktur und Produkte zu finanzieren, die langfristigen echten Wert schaffen."
+  },
+  "utility": {
+    "title": "Nützlichkeit des MRS-Tokens",
+    "use1": "Offizielle Währung des MoonRise-Ökosystems",
+    "use2": "Liquiditätsbasis und Kapitalbildung für Expansion",
+    "use3": "Governance-Einheit und Teilnahme an strategischen Entscheidungen",
+    "use4": "Zugang zu Ökosystem-Vorteilen, wenn anwendbar",
+    "use5": "Zukünftige Integration mit Real-World Assets (RWA)"
+  },
+  "security": {
+    "title": "Sicherheit & Transparenz",
+    "point1": "Alle Lieferungen erfolgen 100% automatisch über Smart Contract",
+    "point2": "Keine manuelle Verwahrung. Keine externen Versprechen",
+    "point3": "Auditierbarer Vertrag läuft öffentlich on-chain",
+    "point4": "Liquidität wird kontrolliert geöffnet, um Stabilität zu gewährleisten"
+  },
+  "roadmap": {
+    "title": "Fahrplan",
+    "step1": "Vorverkauf geöffnet",
+    "step2": "Erste Liquidität",
+    "step3": "Expansion der MoonRise-Produkte",
+    "step4": "Integration mit Moon+ (RWA)",
+    "step5": "Globale Skalierung des Ökosystems"
+  },
+  "call": {
+    "title": "Tausende werden zuschauen. Wenige werden gründen.",
+    "description": "Wenn Sie es bis hierher geschafft haben, wurden Sie ausgewählt, um aufzubauen. Dies ist der Ruf der Mutigen: eine souveräne Infrastruktur für kommende Generationen zu finanzieren und zu gründen."
+  },
+  "legal": {
+    "disclaimer": "Diese Seite dient nur zu Informationszwecken und stellt kein registriertes öffentliches Angebot dar. Die Teilnahme am Vorverkauf ist freiwillig und erfolgt direkt über einen Smart Contract on-chain."
+  },
+  "footer": {
+    "rights": "MOONRISE TECHNOLOGIES LLC (WY, USA). Alle Rechte vorbehalten."
+  },
+  "closeButton": "Schließen"
+}

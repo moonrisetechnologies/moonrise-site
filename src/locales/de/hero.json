@@ -1,0 +1,29 @@
+{
+  "eyebrow": "TECHNOLOGIE • INFRASTRUKTUR • AUSFÜHRUNG",
+  "trustBadge": "In Echtzeit prüfbare Operation",
+  "headline": "<1>MoonRise</1> baut ein <3>vollständiges</3> Ökosystem.<br/>Eigene Technologie.<br/>Komplette Integration.<br/>Langfristige Vision.",
+  "slogan": "Technologische Stärke für das reale Finanzsystem. Kein Hype. Keine Ausreden.",
+  "subhead": "Infrastrukturunternehmen auf Blockchain. Vernetzte Produkte — Netzwerk, Wallet, Börse und Module — mit technischer Basis, direkter Kontrolle und klarer Mission: realen Wert mit Autonomie schaffen.",
+  "institutionalLine": "Öffentliche Transparenz, offene Verträge und On-Chain-Tracking 24/7.",
+  "kpisAriaLabel": "Hauptindikatoren",
+  "kpis": [
+    {
+      "label": "des zirkulierenden Angebots gesperrt (on-chain)",
+      "countTo": 68.75,
+      "suffix": "%",
+      "decimals": 2
+    },
+    {
+      "label": "Tokenisierte reale Vermögenswerte (Moon+)",
+      "value": "RWA"
+    },
+    {
+      "label": "MoonRise Technologies · WY",
+      "value": "LLC USA"
+    }
+  ],
+  "cta": {
+    "ecosystem": "Ökosystem Erkunden",
+    "presale": "An der Vorverkauf teilnehmen"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "tagline": "A COMPLETE FINANCIAL ECOSYSTEM.",
+  "title": "The <1>MoonRise ecosystem</1> turns technology into <3>independence</3>.",
+  "description": "Each product was created with purpose: to provide real infrastructure, direct control and financial freedom. Everything interconnected, without relying on third parties.",
+  "items": {
+    "moonplus": {
+      "title": "Moon+ (RWA)",
+      "badge": "Infra",
+      "desc": [
+        "Protocol and standards for operations with real assets.",
+        "Execution via SPVs and independent partners; on-chain audit."
+      ]
+    },
+    "MRS": {
+      "title": "MoonRise Token (MRS)",
+      "badge": "Base",
+      "desc": ["No extra minting; immutable on-chain rules.", "Stable economy and controlled strategy."]
+    },
+    "transparency": {
+      "title": "Transparency & MasterVault",
+      "badge": "Security",
+      "desc": ["Auditable timelocks and smart locks.", "Public official wallets; everything verifiable."]
+    },
+    "moonwallet": {
+      "title": "MoonWallet",
+      "badge": "",
+      "desc": ["Simple and powerful multi-chain self-custody.", "Send/receive and smooth integration with dApps."]
+    }
+  },
+  "cta": {
+    "subtitle": "All MoonRise infrastructure evolves in a cycle of execution and reinvestment.",
+    "presale": "Join the Presale",
+    "transparency": "View Transparency"
+  }
+}

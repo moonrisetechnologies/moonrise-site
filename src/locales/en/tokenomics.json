@@ -1,0 +1,71 @@
+{
+  "title": "MoonRise Tokenomics",
+  "intro": "MoonRise was designed with structure to ensure balance, transparency, and sustainable growth. No token was given away for free — everything was planned with purpose, strategy, and long-term vision. Auditable execution on-chain, with no airdrops and no additional token creation.",
+
+  "buttons": {
+    "transparency": "Transparency",
+    "contract": "View Contract on BscScan"
+  },
+
+  "supplyLabels": {
+    "name": "Name",
+    "symbol": "Symbol",
+    "network": "Network",
+    "total": "Total Supply",
+    "burned": "Burned Tokens",
+    "circulating": "Circulating Supply"
+  },
+  "supply": {
+    "name": "MoonRise",
+    "symbol": "MRS",
+    "network": "BNB Smart Chain (BEP-20)"
+  },
+
+  "distributionTitle": "Token Distribution",
+  "distributionNote": "Every fraction has a clear destination. Nothing is left over, nothing missing — only strategy and execution proven in code.",
+
+  "labels": {
+    "amount": "Amount"
+  },
+
+  "badges": {
+    "founderLock": "Tokens locked for 1 year"
+  },
+
+  "slices": {
+    "pool": "Liquidity (Pool)",
+    "presale": "Presale",
+    "burned": "Burned Tokens",
+    "marketing": "Marketing",
+    "dev": "Development",
+    "ecosystem": "MoonRise Ecosystem",
+    "reserve": "Strategic Reserve",
+    "founder": "Founder"
+  },
+
+  "kpis": {
+    "total": "Total Supply",
+    "circulating": "Post-burn (circulating)",
+    "burned": "Burned",
+    "lockedCirc": "Locked circulating (on-chain)",
+    "presale": "Presale in contract"
+  },
+
+  "fundsTitle": "Use of Collected Funds",
+  "fundsText": "Every resource is allocated with full traceability. Each contribution strengthens the ecosystem, ensures stability, and drives sustainable growth.",
+
+  "funds": [
+    { "title": "MoonRise Ecosystem", "desc": "Constant reinvestment in technology, products, and global expansion. Network growth returns as real value." },
+    { "title": "Stability Reserves", "desc": "Strategic reserve that protects against volatility and maintains healthy liquidity in any scenario." },
+    { "title": "Market Liquidity", "desc": "Robust liquidity ensuring safe, stable trading with real depth." },
+    { "title": "Holder Appreciation", "desc": "Smart execution that turns stability into real appreciation for every holder." }
+  ],
+
+  "closing": {
+    "phrase": "100% public and auditable execution. No extra token creation. Transparency and locks enforced in code."
+  },
+
+  "warnings": {
+    "totalNot100": "The slices add up to {{total}}. Please check the entries."
+  }
+}

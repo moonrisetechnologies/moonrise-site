@@ -1,0 +1,38 @@
+{
+  "brand": "MoonRise Technologies",
+  "menu": {
+    "home": "होम",
+    "moonplus": "Moon+",
+    "wallet": "MoonWallet",
+    "tokenomics": "Tokenomics",
+    "transparency": "पारदर्शिता",
+    "about": "परिचय",
+    "documents": "दस्तावेज़"
+  },
+  "buttons": {
+    "community": "समुदाय",
+    "presale": "प्री-सेल"
+  },
+  "aria": {
+    "menu": "मेनू खोलें",
+    "language": "भाषा चुनें",
+    "close": "बंद करें",
+    "openDocuments": "दस्तावेज़ खोलें"
+  },
+  "closeButton": "बंद करें",
+  "documents": {
+    "title": "दस्तावेज़ • MoonRise",
+    "leadMin": "आधिकारिक पते और दस्तावेज़। EN (PDF) संस्करण एक्सप्लोरर्स के लिए मानक है। बाकी पारदर्शिता टैब में हैं।",
+    "labels": {
+      "token": "MoonRise टोकन",
+      "master": "MasterVault अनुबंध"
+    },
+    "actions": {
+      "copy": "कॉपी करें",
+      "copied": "कॉपी हो गया!",
+      "openPdf": "व्हाइटपेपर (EN) खोलें",
+      "goTransparency": "पारदर्शिता पर जाएँ"
+    },
+    "noteMin": "अनुवादों में असंगति होने पर अंग्रेज़ी (PDF) संस्करण मान्य होगा।"
+  }
+}

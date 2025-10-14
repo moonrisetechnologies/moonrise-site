@@ -1,0 +1,38 @@
+{
+  "brand": "MoonRise Technologies",
+  "menu": {
+    "home": "Accueil",
+    "moonplus": "Moon+",
+    "wallet": "MoonWallet",
+    "tokenomics": "Tokenomics",
+    "transparency": "Transparence",
+    "about": "À propos",
+    "documents": "Documents"
+  },
+  "buttons": {
+    "community": "Communauté",
+    "presale": "Prévente"
+  },
+  "aria": {
+    "menu": "Ouvrir le menu",
+    "language": "Sélectionner la langue",
+    "close": "Fermer",
+    "openDocuments": "Ouvrir les documents"
+  },
+  "closeButton": "Fermer",
+  "documents": {
+    "title": "Documents • MoonRise",
+    "leadMin": "Adresses et documents officiels. La version EN (PDF) fait foi pour les explorateurs. Les autres sont dans l’onglet Transparence.",
+    "labels": {
+      "token": "Token MoonRise",
+      "master": "Contrat MasterVault"
+    },
+    "actions": {
+      "copy": "Copier",
+      "copied": "Copié !",
+      "openPdf": "Ouvrir le Whitepaper (EN)",
+      "goTransparency": "Aller à Transparence"
+    },
+    "noteMin": "En cas de divergence entre traductions, la version anglaise (PDF) prévaut."
+  }
+}

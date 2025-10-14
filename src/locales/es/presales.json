@@ -1,0 +1,77 @@
+{
+  "hero": {
+    "title": "La preventa de MoonRise financia infraestructura. No especulación.",
+    "description": "El token MRS se emite y entrega mediante contrato inteligente en una red pública, con fases claras y liquidación on-chain. Adquisición en BNB/USDT (BEP-20). Al final de la preventa, el 100% de los tokens no vendidos se quemarán on-chain.",
+    "button": "Acceder al Panel de Preventa"
+  },
+  "phases": {
+    "title": "Fases de la Preventa",
+    "counterTitle": "Tokens vendidos",
+    "notificationsLink": "🔔 Unirse al Grupo de Notificaciones",
+    "activeBadge": "Fase Actual",
+    "phaseLabel": "Fase",
+    "supplyLabel": "Oferta",
+    "priceLabel": "Precio"
+  },
+  "buttons": {
+    "tokenomics": "Ver Tokenomics",
+    "transparency": "Ver Transparencia",
+    "helper": "Accede a los detalles completos del modelo y la auditoría social del proyecto."
+  },
+  "network": {
+    "title": "¿Por qué estamos en BNB Chain?",
+    "description1": "Elegimos BNB Chain por su robusta seguridad, estabilidad comprobada y liquidez global. Garantiza bajas comisiones, ejecución inmediata y amplia compatibilidad para los inversores.",
+    "description2": "Nuestro ecosistema ya funciona con fiabilidad y eficiencia — simple para participar, fácil de seguir y totalmente verificable en tiempo real."
+  },
+  "structure": {
+    "title": "¿Cómo funciona la preventa?",
+    "token": "Token: MoonRise (MRS) — estándar BEP-20",
+    "smart": "Ejecución 100% automatizada mediante contrato inteligente (sin custodia manual)",
+    "phases5": "7 fases progresivas con precios y límites públicos",
+    "delivery": "Entrega instantánea de los tokens tras la compra",
+    "minimum": "Monto mínimo por transacción: 5 USDT o equivalente en BNB",
+    "minTx": "Monto mínimo por transacción: {{usdt}} USDT o {{bnb}} BNB (≈ {{fiat}})",
+    "network": "Red utilizada: BNB Smart Chain (BEP-20)",
+    "payment": "Métodos de pago aceptados: BNB y USDT (BEP-20)",
+    "burn": "Al finalizar la preventa, el 100% de los tokens no vendidos se quemarán on-chain",
+    "contractLink": "Ver contrato de preventa en BscScan"
+  },
+  "purpose": {
+    "title": "¿Por qué existe esto?",
+    "description": "MRS es la base de un ecosistema financiero completo. Participar en la preventa significa tomar posición como fundador — financiar liquidez, infraestructura y productos que generan valor real a largo plazo."
+  },
+  "utility": {
+    "title": "Utilidad del token MRS",
+    "use1": "Moneda oficial del ecosistema MoonRise",
+    "use2": "Base de liquidez y formación de capital para la expansión",
+    "use3": "Unidad de gobernanza y participación en decisiones estratégicas",
+    "use4": "Acceso a utilidades y beneficios del ecosistema cuando corresponda",
+    "use5": "Integración futura con activos del mundo real (RWA)"
+  },
+  "security": {
+    "title": "Seguridad y Transparencia",
+    "point1": "Toda entrega es 100% automática mediante contrato inteligente",
+    "point2": "Sin custodia manual. Sin promesas externas",
+    "point3": "Contrato auditable y en ejecución pública on-chain",
+    "point4": "Liquidez abierta de manera controlada para garantizar estabilidad"
+  },
+  "roadmap": {
+    "title": "Hoja de Ruta",
+    "step1": "Preventa abierta",
+    "step2": "Liquidez inicial",
+    "step3": "Expansión de los productos MoonRise",
+    "step4": "Integración con Moon+ (RWA)",
+    "step5": "Escala global del ecosistema"
+  },
+  "call": {
+    "title": "Miles observarán. Pocos fundarán.",
+    "description": "Si llegaste hasta aquí, es porque fuiste apartado para construir. Este es el llamado de los audaces: financiar y fundar una infraestructura soberana para las próximas generaciones."
+  },
+  "legal": {
+    "disclaimer": "Esta página es informativa y no representa una oferta pública registrada. La participación en la preventa es voluntaria y ocurre directamente mediante contrato inteligente on-chain."
+  },
+  "footer": {
+    "rights": "MOONRISE TECHNOLOGIES LLC (WY, EE.UU.). Todos los derechos reservados."
+  },
+  "closeButton": "Cerrar"
+}

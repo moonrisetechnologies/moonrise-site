@@ -1,0 +1,97 @@
+{
+  "header": {
+    "title": "预售已开始",
+    "subtitle": "抢先参与 —— 真正加入 MoonRise 生态。"
+  },
+  "status": {
+    "active": "预售进行中",
+    "not_started": "尚未开始",
+    "ended": "已结束",
+    "paused": "已暂停"
+  },
+  "success": {
+    "title": "✅ 购买已确认！",
+    "desc": "你的 {{SYMBOL}} 已发送至你的钱包。\n若未显示，请在下方添加该代币。",
+    "network_lbl": "📍 网络：",
+    "token_lbl": "📬 代币：",
+    "decimals_lbl": "🔢 小数位数：",
+    "add_wallet_btn": "+ {{SYMBOL}} • 添加到钱包",
+    "view_bscscan": "在 BscScan 查看购买",
+    "buy_more": "继续购买",
+    "close": "关闭"
+  },
+  "links": {
+    "join_group": "加入 Telegram 群组",
+    "notifications": "通知频道"
+  },
+  "info": {
+    "phase": "阶段：",
+    "of": "共 {{NUM_PHASES}}",
+    "sold_short": "已售",
+    "price": "价格：",
+    "per_symbol": "每 {{SYMBOL}}",
+    "wallet_cap": "单钱包上限：{{MAX}} • 已贡献：{{CONTRIB}}",
+    "sold": "已售："
+  },
+  "next": {
+    "title": "下一阶段",
+    "raise": "价格将上调 {{PCT}}%",
+    "remaining": "本阶段剩余 ~ {{AMT}} {{SYMBOL}}。"
+  },
+  "hint": {
+    "buy_any": "💡 可使用 BNB 或 USDT 购买 —— 任选其一。"
+  },
+  "wallet": {
+    "address": "钱包：",
+    "disconnect": "断开连接",
+    "copied": "已复制！",
+    "tips": {
+      "both": "检测到 BNB 与 USDT 余额 —— 选择你希望使用的资产购买。",
+      "bnb": "检测到 BNB 余额 —— 可用 BNB 购买。",
+      "usdt": "检测到 USDT 余额 —— 可用 USDT 购买."
+    }
+  },
+  "form": {
+    "placeholder": "{{ASSET}} 金额",
+    "switch_currency": "切换货币",
+    "max": "最大",
+    "min_note": "⚠ 最低：{{MIN_USD}}{{BRL_PART}} • 汇率换算为估算值。",
+    "enter_amount": "请输入金额",
+    "min_prefix": "最低："
+  },
+  "summary": {
+    "you_will_receive": "你将收到 {{AMT}} {{SYMBOL}}",
+    "estimated_total": "预估总计：{{USD}}{{BRL_PART}}"
+  },
+  "cta": {
+    "connect_wallet": "连接钱包",
+    "switch_bsc": "切换到 BSC",
+    "approve_first": "先授权 USDT",
+    "approving": "⏳ 正在授权…",
+    "approve_usdt": "🧾 授权 USDT",
+    "processing": "⏳ 处理中…",
+    "confirm": "✅ 确认以 {{ASSET}} 购买"
+  },
+  "errors": {
+    "whitelist": "你的地址未在本阶段白名单中。",
+    "whitelist_short": "地址未在白名单中",
+    "oracle": "预言机价格超出窗口。稍后重试。",
+    "oracle_wait": "等待预言机更新",
+    "min_tx": "金额低于单笔最小限额。",
+    "wallet_cap": "已达到本次预售的钱包上限。",
+    "no_alloc": "该金额无可用配额。请降低金额。",
+    "paused": "预售已暂停。",
+    "not_started": "预售尚未开始。",
+    "insufficient": "余额不足，无法完成购买。",
+    "no_wallet": "未检测到钱包。",
+    "must_connect": "请连接你的钱包。",
+    "wrong_network": "网络错误。请切换到 BSC。"
+  },
+  "misc": {
+    "loading": "加载中…",
+    "brl_placeholder": "R$ ..."
+  },
+  "footer": {
+    "legal": "© MOONRISE TECHNOLOGIES LLC (WY, USA). 保留所有权利。"
+  }
+}

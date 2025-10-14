@@ -1,0 +1,71 @@
+{
+  "title": "MoonRise Tokenomics",
+  "intro": "MoonRise foi projetado com estrutura para garantir equilíbrio, transparência e crescimento sustentável. Nenhum token foi distribuído gratuitamente — tudo foi planejado com propósito, estratégia e visão de longo prazo. Execução auditável on-chain, sem airdrop e sem criação adicional de tokens.",
+
+  "buttons": {
+    "transparency": "Transparência",
+    "contract": "Contrato no BscScan"
+  },
+
+  "supplyLabels": {
+    "name": "Nome",
+    "symbol": "Símbolo",
+    "network": "Rede",
+    "total": "Supply Total",
+    "burned": "Tokens Queimados",
+    "circulating": "Supply em Circulação"
+  },
+  "supply": {
+    "name": "MoonRise",
+    "symbol": "MRS",
+    "network": "BNB Smart Chain (BEP-20)"
+  },
+
+  "distributionTitle": "Distribuição de Tokens",
+  "distributionNote": "Cada fração tem um destino claro. Nada sobra, nada falta — apenas estratégia e execução comprovada em código.",
+
+  "labels": {
+    "amount": "Quantidade"
+  },
+
+  "badges": {
+    "founderLock": "Tokens travados por 1 ano"
+  },
+
+  "slices": {
+    "pool": "Liquidez (Pool)",
+    "presale": "Pré-venda",
+    "burned": "Tokens Queimados",
+    "marketing": "Marketing",
+    "dev": "Desenvolvimento",
+    "ecosystem": "Ecossistema MoonRise",
+    "reserve": "Reserva Estratégica",
+    "founder": "Fundador"
+  },
+
+  "kpis": {
+    "total": "Supply total",
+    "circulating": "Pós-queima (circulante)",
+    "burned": "Queimados",
+    "lockedCirc": "Circulante bloqueado (on-chain)",
+    "presale": "Pré-venda em contrato"
+  },
+
+  "fundsTitle": "Uso dos Fundos Arrecadados",
+  "fundsText": "Todo recurso é alocado com rastreabilidade total. Cada contribuição fortalece o ecossistema, garante estabilidade e impulsiona o crescimento sustentável.",
+
+  "funds": [
+    { "title": "Ecossistema MoonRise", "desc": "Reinvestimento constante em tecnologia, produtos e expansão global. O crescimento da rede retorna em valor real." },
+    { "title": "Reservas de Estabilidade", "desc": "Reserva estratégica que protege contra volatilidade e mantém liquidez saudável em qualquer cenário." },
+    { "title": "Liquidez de Mercado", "desc": "Liquidez robusta que garante negociações seguras, estáveis e com profundidade real." },
+    { "title": "Valorização dos Holders", "desc": "Execução inteligente que transforma estabilidade em valorização real para cada holder." }
+  ],
+
+  "closing": {
+    "phrase": "Execução 100% pública e auditável. Sem criação extra de tokens. Transparência e travas blindadas em código."
+  },
+
+  "warnings": {
+    "totalNot100": "A soma das fatias está em {{total}}. Verifique as entradas."
+  }
+}

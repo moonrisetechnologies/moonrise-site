@@ -1,0 +1,78 @@
+{
+  "hero": {
+    "title": "A pré-venda da MoonRise financia infraestrutura. Não especulação.",
+    "description": "O token MRS é emitido e entregue via contrato inteligente em rede pública, com fases claras e liquidação on-chain. Aquisição em BNB/USDT (BEP-20). Ao final da pré-venda, 100% dos tokens não vendidos serão queimados on-chain.",
+    "button": "Acessar o Painel da Pré-venda"
+  },
+  "phases": {
+    "title": "Fases da Pré-venda",
+    "counterTitle": "Tokens vendidos",
+    "notificationsLink": "🔔 Entrar no Grupo de Notificações",
+    "activeBadge": "Fase Atual",
+    "phaseLabel": "Fase",
+    "supplyLabel": "Oferta",
+    "priceLabel": "Preço"
+  },
+  
+  "buttons": {
+    "tokenomics": "Ver Tokenomics",
+    "transparency": "Ver Transparência",
+    "helper": "Acesse os detalhes completos do modelo e a auditoria social do projeto."
+  },
+  "network": {
+    "title": "Por que estamos na BNB Chain?",
+    "description1": "Escolhemos a BNB Chain por sua segurança robusta, estabilidade comprovada e liquidez global. Ela garante taxas baixas, execução imediata e ampla compatibilidade para investidores.",
+    "description2": "Nosso ecossistema já roda com confiabilidade e eficiência — simples para participar, fácil de acompanhar e totalmente verificável em tempo real."
+  },
+  "structure": {
+    "title": "Como funciona a pré-venda?",
+    "token": "Token: MoonRise (MRS) — padrão BEP-20",
+    "smart": "Execução 100% automatizada via contrato inteligente (sem custódia manual)",
+    "phases5": "7 fases progressivas com preços e limites públicos",
+    "delivery": "Entrega instantânea dos tokens após a compra",
+    "minimum": "Valor mínimo por transação: 5 USDT ou equivalente em BNB",
+    "minTx": "Valor mínimo por transação: {{usdt}} USDT ou {{bnb}} BNB (≈ {{fiat}})",
+    "network": "Rede utilizada: BNB Smart Chain (BEP-20)",
+    "payment": "Meios de pagamento aceitos: BNB e USDT (BEP-20)",
+    "burn": "Encerrada a pré-venda, 100% dos tokens não vendidos são queimados on-chain",
+    "contractLink": "Ver contrato da pré-venda no BscScan"
+  },
+  "purpose": {
+    "title": "Por que isso existe?",
+    "description": "O MRS é a fundação de um ecossistema financeiro completo. Participar da pré-venda é assumir posição de fundador — financiar liquidez, infraestrutura e produtos que geram valor real de longo prazo."
+  },
+  "utility": {
+    "title": "Utilidade do token MRS",
+    "use1": "Moeda oficial do ecossistema MoonRise",
+    "use2": "Base de liquidez e formação de capital para expansão",
+    "use3": "Unidade de governança e participação em decisões estratégicas",
+    "use4": "Acesso a utilidades e benefícios do ecossistema quando aplicável",
+    "use5": "Integração futura com soluções e ativos do mundo real (RWA)"
+  },
+  "security": {
+    "title": "Segurança & Transparência",
+    "point1": "Toda entrega é 100% automática via contrato inteligente",
+    "point2": "Sem custódia manual. Sem promessas externas",
+    "point3": "Contrato auditável e em execução pública on-chain",
+    "point4": "Liquidez aberta de forma controlada para garantir estabilidade"
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "step1": "Pré-venda aberta",
+    "step2": "Liquidez inicial",
+    "step3": "Expansão dos produtos MoonRise",
+    "step4": "Integração com Moon+ (RWA)",
+    "step5": "Escala global do ecossistema"
+  },
+  "call": {
+    "title": "Milhares vão assistir. Poucos vão fundar.",
+    "description": "Se você chegou até aqui, é porque foi separado para construir. Esse é o chamado dos ousados: financiar e fundar uma infraestrutura soberana para as próximas gerações."
+  },
+  "legal": {
+    "disclaimer": "Esta página é informativa e não representa uma oferta pública registrada. A participação na pré-venda é voluntária e ocorre diretamente via contrato inteligente on-chain."
+  },
+  "footer": {
+    "rights": "MOONRISE TECHNOLOGIES LLC (WY, USA). All rights reserved."
+  },
+  "closeButton": "Fechar"
+}

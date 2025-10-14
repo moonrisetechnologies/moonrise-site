@@ -1,0 +1,76 @@
+{
+  "notice": {
+    "preop": "Pré-operatório"
+  },
+  "start": {
+    "target": "Janela alvo: Q1 2026"
+  },
+  "hero": {
+    "kicker": "EMPRESA • ESTRUTURA • MOON+",
+    "title": {
+      "l1": "Moon+",
+      "l2": "RWA"
+    },
+    "subtitle": "Infraestrutura técnica RWA da MoonRise. Padrões, modelos de contrato e monitoramento on-chain para operações do setor imobiliário com parceiros independentes.",
+    "legalLine": "Moon+ é infraestrutura técnica. Execução por SPEs e empresas parceiras, com regras públicas e auditáveis. Não intermediamos valores mobiliários. Não somos corretora."
+  },
+  "links": {
+    "community_url": "https://t.me/moonriseofficialcommunity",
+    "support_url": "https://t.me/moonrisesupport"
+  },
+  "cta": {
+    "community": "Entrar na comunidade",
+    "support": "Falar com o time",
+    "join": "Entrar na comunidade",
+    "contact": "Falar com o time"
+  },
+  "value": {
+    "title": "O que entregamos",
+    "cards": [
+      { "t": "Padrões e contratos", "d": "Modelos jurídicos/financeiros e templates de SPE." },
+      { "t": "Monitoramento on-chain", "d": "Carteiras oficiais e regras públicas, auditáveis." },
+      { "t": "Governança técnica", "d": "Processos e covenants sem interferir na operação." },
+      { "t": "Integrações e parceiros", "d": "Infra para conexão com empresas do setor." },
+      { "t": "SPEs padronizadas", "d": "Estruturas operacionais replicáveis e verificáveis." },
+      { "t": "Relatórios públicos", "d": "Acompanhamento transparente com métricas e eventos." }
+    ]
+  },
+  "how": {
+    "title": "Como operamos",
+    "steps": [
+      { "t": "Mapeamento", "d": "Triagem de parceiros e oportunidades do setor." },
+      { "t": "Diligência", "d": "Análise técnica, jurídica e de risco." },
+      { "t": "Estruturação", "d": "Contratos/SPEs e regras públicas on-chain." },
+      { "t": "Acompanhamento", "d": "Monitoramento contínuo e relatórios periódicos." }
+    ],
+    "note": "Sem promessa de rendimento. Operações sujeitas a riscos e requisitos legais."
+  },
+  "relation": {
+    "title": "Relação e independência",
+    "desc": "Moon+ é infraestrutura técnica. As operações são conduzidas por SPEs e empresas parceiras, juridicamente independentes e sem coobrigação. Fluxos e regras seguem contratos públicos, rastreáveis on-chain. Sem corretagem."
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "items": [
+      { "t": "2025 • H2", "d": "Publicação da tese RWA, SPE padrão e base de parceiros." },
+      { "t": "2026 • Q1", "d": "Projetos-piloto com empresas do setor e relatórios públicos." },
+      { "t": "2026 • Q2–Q3", "d": "Escala de operações, novos ativos e portal de relatórios v1." }
+    ]
+  },
+  "faq": {
+    "title": "Perguntas frequentes",
+    "items": [
+      { "q": "A Moon+ é corretora?", "a": "Não. Moon+ é infraestrutura técnica. As operações são conduzidas por SPEs/parceiros." },
+      { "q": "Como acompanho os fluxos?", "a": "Por regras públicas e carteiras oficiais on-chain, com relatórios periódicos." },
+      { "q": "Quem opera os ativos?", "a": "Empresas do setor e SPEs independentes, responsáveis por suas obrigações." }
+    ]
+  },
+  "disclaimer": "Sem promessa de rendimento. Operações sujeitas a riscos de mercado, requisitos legais e ajustes estratégicos.",
+  "legal": {
+    "moonplus_name": "MoonRise Technologies",
+    "moonplus_jurisdiction": "LLC registrada (WY, USA). Moon+: infraestrutura técnica RWA; sem corretagem.",
+    "moonrise_note": "As investidas são juridicamente independentes e responsáveis por suas obrigações. Repasses conforme contratos.",
+    "rights": "Todos os direitos reservados."
+   
+  }
+}

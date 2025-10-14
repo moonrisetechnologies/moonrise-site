@@ -1,0 +1,155 @@
+{
+  "title": "Transparência MoonRise",
+  "intro": "Cada linha é auditável. Sem promessa — só entrega. Abaixo estão contratos, hashes e carteiras com prova on-chain.",
+
+  "protection": {
+    "summary": "MoonRise protege a economia com lógica e código. Operações respeitam limites, aplicam cooldown, evitam abusos e convertem cada ação em liquidez real — tudo visível em tempo real.",
+    "internalEconomyTitle": "Economia Interna Inteligente",
+    "internalEconomy": "Toda movimentação do ecossistema alimenta a liquidez automaticamente. Nada é estático: cada clique fortalece o sistema — de forma automatizada, transparente e escalável.",
+    "badges": ["Liquidez Inteligente", "Gráfico Estabilizado", "Ecossistema Real", "Bloqueio de Dump"]
+  },
+
+   "dna": [
+    "✅ Código aberto e contratos auditáveis — qualquer pessoa verifica no BscScan. Zero controle centralizado.",
+    "✅ Movimentações geram liquidez — sem lastro externo, estrutura interna comprovável.",
+    "✅ 100% independente — sem dependência de bancos ou intermediários. Controle e execução por contrato inteligente.",
+    "✅ Defesa anti-baleia ativa — bloqueio de movimentos suspeitos para proteger holders e gráfico."
+  ],
+
+  "proof_title": "🚀 Provas Reais e Auditáveis",
+  "proof_intro": "Não pedimos confiança. Execução rastreável em tempo real na blockchain — contratos, hashes e documentos públicos.",
+  "proof": [
+    "🔥 Queima inicial de 1,7B MRS no deploy — hash público no BscScan.",
+    "🧠 Taxa de venda dinâmica (3,5% ↔ 7,0%) ajustada automaticamente conforme o volume on-chain.",
+    "🔐 Time-lock do fundador por 1 ano — qualquer movimento antes do prazo é revertido pelo contrato.",
+    "🛠️ Infraestrutura pública — endereços oficiais imutáveis e regras on-chain verificáveis."
+  ],
+
+  "governance": {
+    "title": "Governança Temporária e Transparente",
+    "intro": "Fase inicial com owner visível e limitado: ligar/pausar negociação, acionar freio de emergência e congelar regras on-chain.",
+    "can": {
+      "title": "O que o owner pode fazer",
+      "items": [
+        "Pausar/retomar o contrato em caso de risco.",
+        "Configurar router e marcar pares AMM para negociação.",
+        "Ajustar proteções anti-bot/anti-dump dentro de limites públicos.",
+        "Conceder/retirar isenção de taxa e cooldown antes do freeze.",
+        "Congelar configurações (AMMs, isenções, parâmetros) para torná-las imutáveis."
+      ]
+    },
+    "cannot": {
+      "title": "O que o owner NÃO pode fazer",
+      "items": [
+        "Criar novos tokens ou aumentar o supply (sem mint; apenas burn voluntário).",
+        "Mover a carteira do fundador antes do time-lock ou reduzir esse prazo.",
+        "Desmarcar AMM marcado ou trocar carteiras oficiais (liquidez, dev, reserva etc.).",
+        "Definir a taxa manualmente — o contrato ajusta sozinho entre 3,5% e 7,0%.",
+        "Desfazer freezes ou ultrapassar limites de segurança."
+      ]
+    }
+  },
+
+  "ops": {
+    "title": "Operação MoonRise",
+    "body": "Contratos abertos. Carteiras oficiais. Regras executadas sem controle manual. Toda ação relevante deixa rastro on-chain em tempo real."
+  },
+
+  "liquidity": {
+    "title": "Política de Liquidez & Defesa de Mercado",
+    "items": [
+      "Liquidez aberta por calendário e regras pré-definidas.",
+      "Mecanismos anti-baleia e anti-dump no contrato para proteger holders e o gráfico.",
+      "Taxas e operações registradas on-chain (BscScan) com transparência total.",
+      "Fundo de estabilidade e travas automatizadas via MasterVault."
+    ]
+  },
+
+  "release_schedule": {
+    "title": "Calendário de Liberação de Tokens",
+    "total_prefix": "Total previsto nesta carteira:",
+    "units": { "million": "milhões", "billion": "bilhões", "token_suffix": "MRS" }
+  },
+
+  "lock_reason": {
+    "title": "Por que os tokens estão travados?",
+    "paragraph_1": "Tokens de liquidez, marketing, desenvolvimento, ecossistema e reserva seguem timelocks automatizados no MasterVault. Nada é usado antes da hora.",
+    "paragraph_2": "Existem apenas duas parcelas emergenciais dentro do MasterVault — a última de Liquidez (350M) e a última do Ecossistema (50M). Podem ser liberadas antes da data somente se a pré-venda for marcada como esgotada (presaleSoldOut == true), para listagem antecipada ou suporte técnico crítico. Tudo fica registrado on-chain.",
+    "paragraph_3": "O contrato é público, auditável e imutável. Verifique cada linha diretamente no blockchain.",
+    "button": "Ver contrato MasterVault no BscScan"
+  },
+
+  "wallets_title": "Carteiras Oficiais do Projeto",
+  "wallets_lead": "Os endereços abaixo compõem a infraestrutura pública da MoonRise. Rastreáveis, verificáveis e visíveis em tempo real no blockchain.",
+
+  "wallet_groups": {
+    "operacao": "Operação",
+    "crescimento": "Crescimento",
+    "estabilidade": "Estabilidade",
+    "distribuicao": "Distribuição de Recursos Iniciais",
+    "controle": "Controle"
+  },
+
+  "wallets": {
+    "ecossistema_presale": "Carteira do Ecossistema — Pré-venda (62%)",
+    "liquidez_presale": "Carteira de Liquidez — Pré-venda (23%)",
+    "dev_init_ops": "Carteira de Operações Iniciais (15%)",
+
+    "liquidez": "Carteira de Liquidez",
+    "ecossistema": "Carteira do Ecossistema",
+    "desenvolvimento": "Carteira de Desenvolvimento",
+    "marketing": "Carteira de Marketing",
+    "reserva": "Carteira de Reserva",
+    "fundador": "Carteira do Fundador",
+    "admin": "Carteira Administrativa (Owner)",
+
+    "view_on_explorer": "Ver no BscScan"
+  },
+
+  "wallets_desc": {
+    "ecossistema_presale": "62% da pré-venda para expansão do ecossistema: RWA, app e integrações estratégicas.",
+    "liquidez_presale": "23% da pré-venda para formar pools, abrir mercado e blindar o gráfico na largada.",
+    "dev_init_ops": "15% destinados a cobrir os custos fundamentais de início: desenvolvimento, infraestrutura, compliance e suporte às entregas iniciais.",
+
+    "liquidez": "Liquidez contínua: manutenção de pools, profundidade de book e estabilidade de preço.",
+    "ecossistema": "Gestão das frentes MoonRise e execução de operações estratégicas multinegócio.",
+    "desenvolvimento": "Pesquisa, segurança e módulos core com foco em performance e escala.",
+    "marketing": "Aquisição e autoridade de marca com metas de ROI e crescimento global.",
+    "reserva": "Reserva estratégica para estabilidade, choques de mercado e expansão programada.",
+    "fundador": "Tokens bloqueados por 1 ano (time-lock). Sem movimento fora da regra.",
+    "admin": "Governança temporária com limites públicos e rastreáveis no contrato."
+  },
+
+  "wallets_notes": {
+    "admin": "Recomendado: multi-sig + timelock; privilégios sensíveis auditáveis."
+  },
+
+  "wallets_locked_note": "Carteira bloqueada por 1 ano após o deploy",
+
+  "docs_title": "📂 Documentos Oficiais e Contratos",
+  "docs": {
+    "token_label": "Contrato do Token",
+    "mastervault_label": "Contrato MasterVault"
+  },
+  "docs_links": {
+    "token_explorer": "(ver no BscScan)"
+  },
+
+  "whitepaper": { "label": "Ler o Whitepaper" },
+  "disclaimer": { "trigger": "Consultar o Termo de Isenção de Responsabilidade" },
+
+  "aria": { "copy_address": "Copiar endereço" },
+
+  "footer": "© MOONRISE TECHNOLOGIES LLC (WY, USA). All rights reserved.",
+
+  "seo": {
+    "meta_title": "MoonRise — Transparência On-chain",
+    "meta_description": "Contratos, carteiras e provas on-chain. Sem promessa — só entrega."
+  },
+
+  "kpi": {
+    "wallets_hint": "Endereços públicos e auditáveis",
+    "locked_hint": "Tokens com timelock",
+    "schedule_hint": "Somatório previsto"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "header": {
+    "title": "LA PRÉVENTE A DÉMARRÉ",
+    "subtitle": "Entrez avant tout le monde — participation réelle à l’écosystème MoonRise."
+  },
+  "status": {
+    "active": "Prévente active",
+    "not_started": "Pas encore commencée",
+    "ended": "Terminée",
+    "paused": "En pause"
+  },
+  "success": {
+    "title": "✅ Achat confirmé !",
+    "desc": "Vos {{SYMBOL}} ont été envoyés vers votre portefeuille.\nS’ils n’apparaissent pas, ajoutez le token ci-dessous.",
+    "network_lbl": "📍 Réseau :",
+    "token_lbl": "📬 Token :",
+    "decimals_lbl": "🔢 Décimales :",
+    "add_wallet_btn": "+ {{SYMBOL}} • Ajouter au portefeuille",
+    "view_bscscan": "Voir l’achat sur BscScan",
+    "buy_more": "Acheter plus",
+    "close": "Fermer"
+  },
+  "links": {
+    "join_group": "Rejoindre le groupe Telegram",
+    "notifications": "Canal de notifications"
+  },
+  "info": {
+    "phase": "Phase :",
+    "of": "sur {{NUM_PHASES}}",
+    "sold_short": "vendus",
+    "price": "Prix :",
+    "per_symbol": "par {{SYMBOL}}",
+    "wallet_cap": "Plafond par portefeuille : {{MAX}} • Déjà contribué : {{CONTRIB}}",
+    "sold": "Vendus :"
+  },
+  "next": {
+    "title": "Prochaine phase",
+    "raise": "Le prix augmentera de {{PCT}}%",
+    "remaining": "~ {{AMT}} {{SYMBOL}} restants pour cette phase."
+  },
+  "hint": {
+    "buy_any": "💡 Vous pouvez acheter avec BNB ou USDT — choisissez ce que vous préférez."
+  },
+  "wallet": {
+    "address": "Portefeuille :",
+    "disconnect": "Déconnecter",
+    "copied": "Copié !",
+    "tips": {
+      "both": "Solde détecté en BNB et USDT — choisissez votre mode d’achat.",
+      "bnb": "Solde BNB détecté — prêt à acheter en BNB.",
+      "usdt": "Solde USDT détecté — prêt à acheter en USDT."
+    }
+  },
+  "form": {
+    "placeholder": "Montant en {{ASSET}}",
+    "switch_currency": "Changer de devise",
+    "max": "Max",
+    "min_note": "⚠ Minimum : {{MIN_USD}}{{BRL_PART}} • Les conversions sont des estimations.",
+    "enter_amount": "Saisissez un montant",
+    "min_prefix": "Minimum :"
+  },
+  "summary": {
+    "you_will_receive": "Vous recevrez {{AMT}} {{SYMBOL}}",
+    "estimated_total": "Total estimé : {{USD}}{{BRL_PART}}"
+  },
+  "cta": {
+    "connect_wallet": "Connectez votre portefeuille",
+    "switch_bsc": "Basculer vers BSC",
+    "approve_first": "Approuver d’abord l’USDT",
+    "approving": "⏳ Approbation…",
+    "approve_usdt": "🧾 Approuver l’USDT",
+    "processing": "⏳ Traitement…",
+    "confirm": "✅ Confirmer l’achat en {{ASSET}}"
+  },
+  "errors": {
+    "whitelist": "Votre adresse n’est pas sur la liste blanche (whitelist) pour cette phase.",
+    "whitelist_short": "Adresse non présente sur la whitelist",
+    "oracle": "Prix de l’oracle hors fenêtre. Réessayez sous peu.",
+    "oracle_wait": "En attente de la mise à jour de l’oracle",
+    "min_tx": "Montant inférieur au minimum par transaction.",
+    "wallet_cap": "Plafond par portefeuille atteint pour cette prévente.",
+    "no_alloc": "Aucune allocation disponible pour ce montant. Réduisez le montant.",
+    "paused": "Prévente en pause.",
+    "not_started": "La prévente n’a pas encore commencé.",
+    "insufficient": "Solde insuffisant pour finaliser l’achat.",
+    "no_wallet": "Portefeuille non détecté.",
+    "must_connect": "Connectez votre portefeuille.",
+    "wrong_network": "Mauvais réseau. Basculez vers BSC."
+  },
+  "misc": {
+    "loading": "Chargement…",
+    "brl_placeholder": "R$ ..."
+  },
+  "footer": {
+    "legal": "© MOONRISE TECHNOLOGIES LLC (WY, USA). Tous droits réservés."
+  }
+}

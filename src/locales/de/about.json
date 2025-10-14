@@ -1,0 +1,65 @@
+{
+  "title": "MoonRise",
+  "hero": {
+    "tag": "UNTERNEHMEN • STRUKTUR • AUSFÜHRUNG",
+    "lead": "Holding in den USA registriert. Unternehmensstruktur, klare Governance und absoluter Fokus auf Ausführung und Langfristigkeit."
+  },
+  "who": {
+    "title": "Wer Wir Sind",
+    "paragraphs": [
+      "MoonRise Holdings LLC ist ein Technologie- und Finanzunternehmen. Unsere Aufgabe ist es, echte Infrastruktur mit Prozess, Sicherheit und Skalierbarkeit aufzubauen.",
+      "Wir arbeiten nach internationalen Standards, mit klar definierten internen Kontrollen und objektiver Kommunikation. Keine Versprechen. Nur Ergebnisse."
+    ]
+  },
+  "purpose": {
+    "title": "Unser Zweck",
+    "items": [
+      "Entwicklung kritischer Technologien für moderne Finanzoperationen.",
+      "Standardisierung von Prozessen, Risikoreduzierung und Steigerung der Ausführungsgeschwindigkeit.",
+      "Verknüpfung von Partnern und Investoren mit einer seriösen und prüfbaren Operation."
+    ]
+  },
+  "values": {
+    "title": "Unsere Säulen",
+    "items": ["Transparenz", "Exzellenz", "Innovation", "Geschwindigkeit", "Beständigkeit"]
+  },
+  "experience": {
+    "title": "Unsere Erfahrung",
+    "items": [
+      "Systemarchitektur und prüfbare Verträge mit Fokus auf Sicherheit.",
+      "Schlanke Unternehmensführung, klare Prozesse und datengestützte Entscheidungen.",
+      "Kontinuierliche Lieferung: Planung, Versionierung, Messung und Verbesserung."
+    ]
+  },
+  "stats": [
+    { "value": "Global", "label": "Reichweite" },
+    { "value": "US-Registrierung", "label": "Rechtsgrundlage" },
+    { "value": "Prozess", "label": "Ausführungsmethode" },
+    { "value": "Transparent", "label": "Verwaltung" }
+  ],
+  "legal": {
+    "title": "Rechtliche Registrierung",
+    "company": "MoonRise Technologies LLC",
+    "place": "Wyoming, USA",
+    "id": "ID #2025-00169-WY"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "channels_title": "Offizielle Kanäle:",
+    "summary": "Institutioneller Support, Partnerschaften oder Fragen? Kontaktieren Sie unser Team.",
+    "hours": "Geschäftszeiten: Mo–Fr, 9–18 Uhr (BRT)"
+  },
+  "cta": {
+    "contact": "Mit dem Team sprechen"
+  },
+  "founder": {
+    "open_btn": "Über den Gründer",
+    "modal": {
+      "title": "Felipe Araújo — Gründer & CEO",
+      "body": "Ich bin Felipe Araújo, brasilianischer Unternehmer und Gründer von MoonRise Technologies. Meine Laufbahn begann vor Jahren in Bereichen wie Technologie, Programmierung, Digitalmarketing und Unternehmensführung. Diese Erfahrungen gaben mir eine praktische Sicht darauf, wie Unternehmen wachsen, wo sie scheitern und welche Grundlagen tatsächlich langfristige Ergebnisse tragen.\n\nIch habe immer geglaubt, dass Disziplin, Transparenz und Beständigkeit nicht verhandelbare Prinzipien sind. Es gibt keine Abkürzungen: nur Prozesse, tägliche Ausführung und persönliche Verantwortung bei jeder Entscheidung. Diese Denkweise hat mich hierhergebracht und bildet die Grundlage meiner Führung.\n\nWährend meiner Reise sah ich ein wiederkehrendes Problem, sowohl im traditionellen Markt als auch in der Krypto-Welt: Mangel an Transparenz, leere Versprechen und Projekte, die ohne solide Basis entstehen und Investoren im Verlust zurücklassen. Dieses Szenario störte mich zutiefst. Genau deshalb beschloss ich, MoonRise zu gründen: um zu beweisen, dass es möglich ist, ein transparentes, seriöses und langfristiges Finanzökosystem aufzubauen.\n\nVon Anfang an traf ich eine klare Entscheidung: liefern, bevor man verkauft. Noch vor dem Vorverkauf entwickelten wir bereits unsere App, die MoonWallet, und bauten die Transparenzbasis des Unternehmens auf. Wir taten dies mit eigenen Mitteln, weil ich glaube, dass man nur dann um Vertrauen bitten sollte, wenn bereits echte Ausführung vorhanden ist.\n\nEine weitere strategische Entscheidung betraf das Angebot. Von den 8 Milliarden aktiven Token nach dem anfänglichen Burn beträgt meine persönliche Zuteilung nur 20 Millionen (0,25 %), alle für 12 Monate in einem öffentlichen Vertrag gesperrt. Das zeigt, dass ich keinen individuellen Vorteil suche und keine „Whale“ bin, die den Marktpreis zum Einsturz bringen könnte. Mein Erfolg hängt, wie der jedes Investors, ausschließlich vom nachhaltigen Wachstum von MoonRise ab.\n\nMeine Vision ist klar: Ich bin nicht hier, um reich zu werden, indem ich Token verkaufe, sondern um ein Unternehmen aufzubauen, das reale, solide und nachhaltige Einnahmen generiert. Ich glaube, dass nur so wahrer Wert entsteht — wenn sowohl das Unternehmen als auch die Investoren gemeinsam wachsen.\n\nMoonRise wurde nicht zum Spekulieren geboren. Es wurde gegründet, um zu führen, auszuführen und Vertrauen in einen diskreditierten Markt zu bringen. Das ist das Versprechen, das ich als Gründer gebe: mit gutem Beispiel voranzugehen, Disziplin zu wahren und etwas zu schaffen, das der Zeit standhält.",
+      "cta_label": "Instagram-Profil ansehen",
+      "close": "Schließen",
+      "aria_close": "Gründer-Modal schließen"
+    }
+  }
+}

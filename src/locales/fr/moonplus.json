@@ -1,0 +1,75 @@
+{
+  "notice": {
+    "preop": "Pré-opérationnel"
+  },
+  "start": {
+    "target": "Fenêtre cible : T1 2026"
+  },
+  "hero": {
+    "kicker": "ENTREPRISE • STRUCTURE • MOON+",
+    "title": {
+      "l1": "Moon+",
+      "l2": "RWA"
+    },
+    "subtitle": "Infrastructure technique RWA de MoonRise. Standards, modèles de contrat et suivi on-chain pour des opérations immobilières avec des partenaires indépendants.",
+    "legalLine": "Moon+ est une infrastructure technique. Exécution par des SPV et des sociétés partenaires, avec des règles publiques et auditables. Nous n’intermédi ons pas de valeurs mobilières. Nous ne sommes pas courtier."
+  },
+  "links": {
+    "community_url": "https://t.me/moonriseofficialcommunity",
+    "support_url": "https://t.me/moonrisesupport"
+  },
+  "cta": {
+    "community": "Rejoindre la communauté",
+    "support": "Contacter l’équipe",
+    "join": "Rejoindre la communauté",
+    "contact": "Contacter l’équipe"
+  },
+  "value": {
+    "title": "Ce que nous délivrons",
+    "cards": [
+      { "t": "Standards et contrats", "d": "Modèles juridiques/financiers et modèles de SPV." },
+      { "t": "Suivi on-chain", "d": "Portefeuilles officiels et règles publiques, auditables." },
+      { "t": "Gouvernance technique", "d": "Processus et covenants sans interférer avec l’opérationnel." },
+      { "t": "Intégrations et partenaires", "d": "Infra pour se connecter aux entreprises du secteur." },
+      { "t": "SPV standardisés", "d": "Structures opérationnelles réplicables et vérifiables." },
+      { "t": "Rapports publics", "d": "Suivi transparent avec métriques et événements." }
+    ]
+  },
+  "how": {
+    "title": "Notre mode opératoire",
+    "steps": [
+      { "t": "Cartographie", "d": "Tri des partenaires et opportunités sectorielles." },
+      { "t": "Due diligence", "d": "Analyse technique, juridique et des risques." },
+      { "t": "Structuration", "d": "Contrats/SPV et règles publiques on-chain." },
+      { "t": "Suivi", "d": "Monitoring continu et rapports périodiques." }
+    ],
+    "note": "Aucune promesse de rendement. Opérations soumises aux risques et exigences légales."
+  },
+  "relation": {
+    "title": "Relation et indépendance",
+    "desc": "Moon+ est une infrastructure technique. Les opérations sont menées par des SPV et des sociétés partenaires, juridiquement indépendants et sans co-obligation. Les flux et règles suivent des contrats publics, traçables on-chain. Pas de courtage."
+  },
+  "roadmap": {
+    "title": "Feuille de route",
+    "items": [
+      { "t": "2025 • S2", "d": "Publication de la thèse RWA, SPV standard et base de partenaires." },
+      { "t": "2026 • T1", "d": "Projets pilotes avec des entreprises du secteur et rapports publics." },
+      { "t": "2026 • T2–T3", "d": "Montée en charge, nouveaux actifs et portail de rapports v1." }
+    ]
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "items": [
+      { "q": "Moon+ est-il un courtier ?", "a": "Non. Moon+ est une infrastructure technique. Les opérations sont menées par des SPV/partenaires." },
+      { "q": "Comment suivre les flux ?", "a": "Via des règles publiques et des portefeuilles officiels on-chain, avec des rapports périodiques." },
+      { "q": "Qui exploite les actifs ?", "a": "Des entreprises du secteur et des SPV indépendants, responsables de leurs obligations." }
+    ]
+  },
+  "disclaimer": "Aucune promesse de rendement. Opérations soumises aux risques de marché, aux exigences légales et aux ajustements stratégiques.",
+  "legal": {
+    "moonplus_name": "MoonRise Technologies",
+    "moonplus_jurisdiction": "LLC enregistrée (WY, USA). Moon+ : infrastructure technique RWA ; sans courtage.",
+    "moonrise_note": "Les participations sont juridiquement indépendantes et responsables de leurs obligations. Transferts selon contrats.",
+    "rights": "Tous droits réservés."
+  }
+}

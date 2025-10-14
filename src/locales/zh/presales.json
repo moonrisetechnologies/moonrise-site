@@ -1,0 +1,77 @@
+{
+  "hero": {
+    "title": "MoonRise 预售资助基础设施，而非投机。",
+    "description": "MRS 代币通过公共网络上的智能合约发行和交付，具有明确的阶段和链上结算。以 BNB/USDT (BEP-20) 购买。在预售结束时，100% 未售出的代币将在链上销毁。",
+    "button": "进入预售面板"
+  },
+  "phases": {
+    "title": "预售阶段",
+    "counterTitle": "已售代币",
+    "notificationsLink": "🔔 加入通知群",
+    "activeBadge": "当前阶段",
+    "phaseLabel": "阶段",
+    "supplyLabel": "供应",
+    "priceLabel": "价格"
+  },
+  "buttons": {
+    "tokenomics": "查看 Tokenomics",
+    "transparency": "查看透明度",
+    "helper": "访问完整的模型细节和项目的社会审计。"
+  },
+  "network": {
+    "title": "为什么选择 BNB Chain？",
+    "description1": "我们选择 BNB Chain 是因为其强大的安全性、经过验证的稳定性和全球流动性。它确保低手续费、即时执行以及对投资者的广泛兼容性。",
+    "description2": "我们的生态系统已经以可靠性和高效性运行 — 简单参与，容易跟踪，并且可实时完全验证。"
+  },
+  "structure": {
+    "title": "预售如何运作？",
+    "token": "代币: MoonRise (MRS) — BEP-20 标准",
+    "smart": "100% 自动执行智能合约（无人工托管）",
+    "phases5": "7 个逐步阶段，具有公开价格和限制",
+    "delivery": "购买后立即交付代币",
+    "minimum": "每笔交易的最低金额：5 USDT 或等值 BNB",
+    "minTx": "最低交易金额：{{usdt}} USDT 或 {{bnb}} BNB (≈ {{fiat}})",
+    "network": "使用的网络：BNB Smart Chain (BEP-20)",
+    "payment": "接受的支付方式：BNB 和 USDT (BEP-20)",
+    "burn": "预售结束时，100% 未售出的代币将在链上销毁",
+    "contractLink": "在 BscScan 查看预售合约"
+  },
+  "purpose": {
+    "title": "为什么会存在？",
+    "description": "MRS 是一个完整金融生态系统的基础。参与预售意味着承担创始人角色 — 资助流动性、基础设施和能产生长期真实价值的产品。"
+  },
+  "utility": {
+    "title": "MRS 代币用途",
+    "use1": "MoonRise 生态系统的官方货币",
+    "use2": "扩展的流动性基础和资本形成",
+    "use3": "治理单元及战略决策参与",
+    "use4": "适用时可访问生态系统的实用功能和权益",
+    "use5": "未来与现实世界资产 (RWA) 的集成"
+  },
+  "security": {
+    "title": "安全与透明",
+    "point1": "所有交付均通过智能合约 100% 自动完成",
+    "point2": "无人工托管。无外部承诺",
+    "point3": "可审计合约在链上公开运行",
+    "point4": "以受控方式开放流动性以确保稳定性"
+  },
+  "roadmap": {
+    "title": "路线图",
+    "step1": "预售开启",
+    "step2": "初始流动性",
+    "step3": "MoonRise 产品扩展",
+    "step4": "与 Moon+ (RWA) 集成",
+    "step5": "生态系统全球扩展"
+  },
+  "call": {
+    "title": "成千上万会观看。少数会成为创始人。",
+    "description": "如果你走到这里，说明你被选中来建设。这是勇敢者的召唤：为下一代资助并建立一个主权基础设施。"
+  },
+  "legal": {
+    "disclaimer": "本页面仅供参考，并不构成注册的公开发行。参与预售是自愿的，并通过链上智能合约直接进行。"
+  },
+  "footer": {
+    "rights": "MOONRISE TECHNOLOGIES LLC (WY, USA). 版权所有。"
+  },
+  "closeButton": "关闭"
+}

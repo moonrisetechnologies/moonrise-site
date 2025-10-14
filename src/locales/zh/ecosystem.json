@@ -1,0 +1,35 @@
+{
+  "tagline": "完整的金融生态系统。",
+  "title": "MoonRise 的<1>生态系统</1>将技术转化为<3>独立</3>。",
+  "description": "每个产品都带着目的而创建：提供真实的基础设施、直接控制和财务自由。一切互联，无需依赖第三方。",
+  "items": {
+    "moonplus": {
+      "title": "Moon+ (RWA)",
+      "badge": "基础设施",
+      "desc": [
+        "用于真实资产交易的协议和标准。",
+        "通过 SPV 和独立合作伙伴执行；链上审计。"
+      ]
+    },
+    "MRS": {
+      "title": "MoonRise Token (MRS)",
+      "badge": "基础",
+      "desc": ["无额外铸币；链上不可更改的规则。", "稳定的经济和可控的战略。"]
+    },
+    "transparency": {
+      "title": "透明度 & MasterVault",
+      "badge": "安全",
+      "desc": ["可审计的 timelocks 和智能锁。", "官方公共钱包；一切可验证。"]
+    },
+    "moonwallet": {
+      "title": "MoonWallet",
+      "badge": "",
+      "desc": ["简单而强大的多链自托管。", "发送/接收并与 dApps 无缝集成。"]
+    }
+  },
+  "cta": {
+    "subtitle": "所有 MoonRise 基础设施在执行与再投资的循环中不断发展。",
+    "presale": "加入预售",
+    "transparency": "查看透明度"
+  }
+}

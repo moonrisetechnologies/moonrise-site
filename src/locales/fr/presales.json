@@ -1,0 +1,77 @@
+{
+  "hero": {
+    "title": "La prévente de MoonRise finance l’infrastructure. Pas la spéculation.",
+    "description": "Le jeton MRS est émis et livré via un contrat intelligent sur un réseau public, avec des phases claires et un règlement on-chain. Acquisition en BNB/USDT (BEP-20). À la fin de la prévente, 100% des jetons invendus seront brûlés on-chain.",
+    "button": "Accéder au Tableau de Bord de la Prévente"
+  },
+  "phases": {
+    "title": "Phases de la Prévente",
+    "counterTitle": "Jetons vendus",
+    "notificationsLink": "🔔 Rejoindre le Groupe de Notifications",
+    "activeBadge": "Phase Actuelle",
+    "phaseLabel": "Phase",
+    "supplyLabel": "Offre",
+    "priceLabel": "Prix"
+  },
+  "buttons": {
+    "tokenomics": "Voir Tokenomics",
+    "transparency": "Voir Transparence",
+    "helper": "Accédez aux détails complets du modèle et à l’audit social du projet."
+  },
+  "network": {
+    "title": "Pourquoi sommes-nous sur la BNB Chain ?",
+    "description1": "Nous avons choisi la BNB Chain pour sa sécurité robuste, sa stabilité éprouvée et sa liquidité mondiale. Elle garantit de faibles frais, une exécution instantanée et une large compatibilité pour les investisseurs.",
+    "description2": "Notre écosystème fonctionne déjà avec fiabilité et efficacité — simple à rejoindre, facile à suivre et totalement vérifiable en temps réel."
+  },
+  "structure": {
+    "title": "Comment fonctionne la prévente ?",
+    "token": "Jeton : MoonRise (MRS) — standard BEP-20",
+    "smart": "Exécution 100% automatisée via contrat intelligent (aucune garde manuelle)",
+    "phases5": "7 phases progressives avec prix et limites publics",
+    "delivery": "Livraison instantanée des jetons après l’achat",
+    "minimum": "Montant minimum par transaction : 5 USDT ou équivalent en BNB",
+    "minTx": "Montant minimum par transaction : {{usdt}} USDT ou {{bnb}} BNB (≈ {{fiat}})",
+    "network": "Réseau utilisé : BNB Smart Chain (BEP-20)",
+    "payment": "Moyens de paiement acceptés : BNB et USDT (BEP-20)",
+    "burn": "À la fin de la prévente, 100% des jetons invendus seront brûlés on-chain",
+    "contractLink": "Voir le contrat de prévente sur BscScan"
+  },
+  "purpose": {
+    "title": "Pourquoi cela existe ?",
+    "description": "Le MRS est la base d’un écosystème financier complet. Participer à la prévente signifie prendre la place d’un fondateur — financer la liquidité, l’infrastructure et les produits qui créent une valeur réelle à long terme."
+  },
+  "utility": {
+    "title": "Utilité du jeton MRS",
+    "use1": "Monnaie officielle de l’écosystème MoonRise",
+    "use2": "Base de liquidité et formation de capital pour l’expansion",
+    "use3": "Unité de gouvernance et participation aux décisions stratégiques",
+    "use4": "Accès aux utilités et avantages de l’écosystème lorsque applicable",
+    "use5": "Intégration future avec des actifs du monde réel (RWA)"
+  },
+  "security": {
+    "title": "Sécurité & Transparence",
+    "point1": "Toute livraison est 100% automatique via contrat intelligent",
+    "point2": "Pas de garde manuelle. Pas de promesses externes",
+    "point3": "Contrat vérifiable et en exécution publique on-chain",
+    "point4": "Liquidité ouverte de manière contrôlée pour garantir la stabilité"
+  },
+  "roadmap": {
+    "title": "Feuille de Route",
+    "step1": "Prévente ouverte",
+    "step2": "Liquidité initiale",
+    "step3": "Expansion des produits MoonRise",
+    "step4": "Intégration avec Moon+ (RWA)",
+    "step5": "Échelle mondiale de l’écosystème"
+  },
+  "call": {
+    "title": "Des milliers regarderont. Peu fonderont.",
+    "description": "Si vous êtes arrivé jusqu’ici, c’est que vous avez été choisi pour construire. C’est l’appel des audacieux : financer et fonder une infrastructure souveraine pour les générations à venir."
+  },
+  "legal": {
+    "disclaimer": "Cette page est informative et ne constitue pas une offre publique enregistrée. La participation à la prévente est volontaire et se fait directement via contrat intelligent on-chain."
+  },
+  "footer": {
+    "rights": "MOONRISE TECHNOLOGIES LLC (WY, USA). Tous droits réservés."
+  },
+  "closeButton": "Fermer"
+}

@@ -1,0 +1,158 @@
+{
+  "title": "MoonRise Transparency",
+  "intro": "Every line is auditable. No promises — only delivery. Below are contracts, hashes, and wallets with on-chain proof.",
+
+  "protection": {
+    "summary": "MoonRise protects the economy with logic and code. Operations respect limits, apply cooldowns, prevent abuse, and convert each action into real liquidity — all visible in real time.",
+    "internalEconomyTitle": "Intelligent Internal Economy",
+    "internalEconomy": "Every movement of the ecosystem automatically feeds liquidity. Nothing is static: every click strengthens the system — automated, transparent, and scalable.",
+    "badges": ["Intelligent Liquidity", "Stabilized Chart", "Real Ecosystem", "Dump Lock"]
+  },
+
+  "dna": [
+    "✅ Open-source code and auditable contracts — anyone can verify on BscScan. Zero centralized control.",
+    "✅ Movements generate liquidity — no external backing, provable internal structure.",
+    "✅ 100% independent — no reliance on banks or intermediaries. Control and execution by smart contract.",
+    "✅ Active anti-whale defense — suspicious moves are blocked to protect holders and the chart."
+  ],
+
+  "proof_title": "🚀 Real, Auditable Proofs",
+  "proof_intro": "We don’t ask for trust. Execution is traceable in real time on the blockchain — contracts, hashes, and public documents.",
+  "proof": [
+    "🔥 Initial burn of 1.7B MRS at deploy — public hash on BscScan.",
+    "🧠 Dynamic sell tax (3.5% ↔ 7.0%) automatically adjusted according to on-chain volume.",
+    "🔐 Founder time-lock for 1 year — any movement before the deadline is reverted by the contract.",
+    "🛠️ Public infrastructure — immutable official addresses and verifiable on-chain rules."
+  ],
+
+  "governance": {
+    "title": "Temporary, Transparent Governance",
+    "intro": "Initial phase with a visible and limited owner: enable/pause trading, trigger emergency brake, and freeze on-chain rules.",
+    "can": {
+      "title": "What the owner can do",
+      "items": [
+        "Pause/resume the contract in case of risk.",
+        "Configure router and mark AMM pairs for trading.",
+        "Adjust anti-bot/anti-dump protections within public limits.",
+        "Grant/remove fee and cooldown exemptions before the freeze.",
+        "Freeze configurations (AMMs, exemptions, parameters) to make them immutable."
+      ]
+    },
+    "cannot": {
+      "title": "What the owner CANNOT do",
+      "items": [
+        "Create new tokens or increase supply (no mint; only voluntary burn).",
+        "Move the founder wallet before the time-lock or shorten that period.",
+        "Unmark an AMM once marked or swap official wallets (liquidity, dev, reserve, etc.).",
+        "Set the tax manually — the contract auto-adjusts between 3.5% and 7.0%.",
+        "Undo freezes or bypass safety limits."
+      ]
+    }
+  },
+
+  "ops": {
+    "title": "MoonRise Operation",
+    "body": "Open contracts. Official wallets. Rules executed without manual control. Every relevant action leaves an on-chain trace in real time."
+  },
+
+  "liquidity": {
+    "title": "Liquidity Policy & Market Defense",
+    "items": [
+      "Liquidity opened by calendar and pre-defined rules.",
+      "Anti-whale and anti-dump mechanisms in the contract to protect holders and the chart.",
+      "Fees and operations recorded on-chain (BscScan) with full transparency.",
+      "Stability fund and automated locks via MasterVault."
+    ]
+  },
+
+  "release_schedule": {
+    "title": "Token Release Schedule",
+    "total_prefix": "Total expected in this wallet:",
+    "units": { "million": "million", "billion": "billion", "token_suffix": "MRS" }
+  },
+
+  "lock_reason": {
+    "title": "Why are the tokens locked?",
+    "paragraph_1": "Liquidity, marketing, development, ecosystem, and reserve tokens follow automated timelocks in the MasterVault. Nothing is used ahead of time.",
+    "paragraph_2": "There are only two emergency tranches inside the MasterVault — the last Liquidity (350M) and the last Ecosystem (50M). They may be released early only if the presale is marked as sold out (presaleSoldOut == true), for early listing or critical technical support. Everything is recorded on-chain.",
+    "paragraph_3": "The contract is public, auditable, and immutable. Verify every line directly on the blockchain.",
+    "button": "View MasterVault contract on BscScan"
+  },
+
+  "wallets_title": "Official Project Wallets",
+  "wallets_lead": "The addresses below make up MoonRise’s public infrastructure. Traceable, verifiable, and visible in real time on the blockchain.",
+
+  "wallet_groups": {
+    "operacao": "Operations",
+    "crescimento": "Growth",
+    "estabilidade": "Stability",
+    "distribuicao": "Initial Resource Distribution",
+    "controle": "Control"
+  },
+
+  "wallets": {
+    "ecossistema_presale": "Ecosystem Wallet — Presale (62%)",
+    "liquidez_presale": "Liquidity Wallet — Presale (23%)",
+    "dev_init_ops": "Initial Operations Wallet (15%)",
+
+    "liquidez": "Liquidity Wallet",
+    "ecossistema": "Ecosystem Wallet",
+    "desenvolvimento": "Development Wallet",
+    "marketing": "Marketing Wallet",
+    "reserva": "Reserve Wallet",
+    "fundador": "Founder Wallet",
+    "admin": "Administrative Wallet (Owner)",
+
+    "view_on_explorer": "View on BscScan"
+  },
+
+
+  "wallets_desc": {
+    "ecossistema_presale": "62% of the presale to expand the ecosystem: RWA, app, and strategic integrations.",
+    "liquidez_presale": "23% of the presale to form pools, open the market, and shield the chart at launch.",
+    "dev_init_ops": "15% allocated to cover foundational start-up costs: development, infrastructure, compliance, and support for initial deliveries.",
+
+    "liquidez": "Ongoing liquidity: pool maintenance, order-book depth, and price stability.",
+    "ecossistema": "Management of MoonRise fronts and execution of multi-business strategic operations.",
+    "desenvolvimento": "Research, security, and core modules focused on performance and scale.",
+    "marketing": "Acquisition and brand authority with ROI targets and global growth.",
+    "reserva": "Strategic reserve for stability, market shocks, and programmed expansion.",
+    "fundador": "Tokens locked for 1 year (time-lock). No movement outside the rule.",
+    "admin": "Temporary governance with public, traceable limits in the contract."
+  },
+
+
+
+  "wallets_notes": {
+    "admin": "Recommended: multi-sig + timelock; sensitive privileges auditable."
+  },
+
+  "wallets_locked_note": "Wallet locked for 1 year after deploy",
+
+  "docs_title": "📂 Official Documents and Contracts",
+  "docs": {
+    "token_label": "Token Contract",
+    "mastervault_label": "MasterVault Contract"
+  },
+  "docs_links": {
+    "token_explorer": "(view on BscScan)"
+  },
+
+  "whitepaper": { "label": "Read the Whitepaper" },
+  "disclaimer": { "trigger": "View the Disclaimer" },
+
+  "aria": { "copy_address": "Copy address" },
+
+  "footer": "© MOONRISE TECHNOLOGIES LLC (WY, USA). All rights reserved.",
+
+  "seo": {
+    "meta_title": "MoonRise — On-chain Transparency",
+    "meta_description": "Contracts, wallets, and on-chain proofs. No promises — only delivery."
+  },
+
+  "kpi": {
+    "wallets_hint": "Public, auditable addresses",
+    "locked_hint": "Tokens with timelock",
+    "schedule_hint": "Projected total"
+  }
+}
