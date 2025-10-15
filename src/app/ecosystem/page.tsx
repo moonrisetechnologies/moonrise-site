@@ -164,7 +164,7 @@ export default function Ecosystem() {
         </div>
 
         <footer className="w-full mt-20 py-6 text-center text-sm text-gray-500">
-          {new Date().getFullYear()} © MOONRISE TECHNOLOGIES LLC (WY, USA). All rights reserved.
+          {new Date().getFullYear()} © MOONRISE. All rights reserved.
         </footer>
       </section>
     </main>

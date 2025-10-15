@@ -1,53 +1,47 @@
 {
   "title": "MoonRise",
   "hero": {
-    "tag": "EMPRESA • ESTRUCTURA • EJECUCIÓN",
-    "lead": "Holding registrada en EE. UU. Estructura corporativa, gobernanza clara y enfoque absoluto en la ejecución y el largo plazo."
+    "tag": "VISIÓN • ESTRUCTURA • EJECUCIÓN",
+    "lead": "MoonRise es un ecosistema global con estructura sólida, gobernanza clara y enfoque absoluto en la ejecución y el largo plazo."
   },
   "who": {
     "title": "Quiénes Somos",
     "paragraphs": [
-      "MoonRise Holdings LLC es una empresa tecnológica y financiera. Nuestro trabajo es construir infraestructura real, con procesos, seguridad y escala.",
-      "Operamos con estándares internacionales, controles internos definidos y comunicación objetiva. Sin promesas. Solo entrega."
+      "MoonRise es un ecosistema basado en tecnología y finanzas. Nuestro propósito es construir infraestructura real con proceso, seguridad y escala.",
+      "Operamos con estándar internacional, controles internos definidos y comunicación objetiva. Sin promesas. Solo entrega."
     ]
   },
   "purpose": {
-    "title": "Nuestra Misión",
+    "title": "Para Qué Existimos",
     "items": [
-      "Desarrollar tecnología crítica para operaciones financieras modernas.",
+      "Desarrollar tecnología esencial para operaciones financieras modernas.",
       "Estandarizar procesos, reducir riesgos y aumentar la velocidad de ejecución.",
-      "Conectar socios e inversores con una operación seria y auditable."
+      "Conectar socios e inversores a una estructura seria, auditable y sostenible."
     ]
   },
   "values": {
     "title": "Nuestros Pilares",
-    "items": ["Transparencia", "Excelencia", "Innovación", "Velocidad", "Consistencia"]
+    "items": ["Transparencia", "Excelencia", "Innovación", "Velocidad", "Constancia"]
   },
   "experience": {
     "title": "Nuestra Experiencia",
     "items": [
-      "Arquitectura de sistemas y contratos auditables, con enfoque en seguridad.",
-      "Operación corporativa ágil, procesos claros y decisiones basadas en datos.",
-      "Entrega continua: planificación, versiones, medición y mejora."
+      "Desarrollo de sistemas y contratos auditables con foco en seguridad.",
+      "Operación ágil, procesos claros y decisiones basadas en datos.",
+      "Entrega continua: planificar, versionar, medir y mejorar constantemente."
     ]
   },
   "stats": [
-    { "value": "Global", "label": "Alcance" },
-    { "value": "Registro EE. UU.", "label": "Base legal" },
+    { "value": "Global", "label": "Presencia" },
+    { "value": "Base sólida", "label": "Fundamento" },
     { "value": "Proceso", "label": "Método de ejecución" },
     { "value": "Transparente", "label": "Gestión" }
   ],
-  "legal": {
-    "title": "Registro Legal",
-    "company": "MoonRise Technologies LLC",
-    "place": "Wyoming, EE. UU.",
-    "id": "ID #2025-00169-WY"
-  },
   "contact": {
     "title": "Contáctanos",
     "channels_title": "Canales Oficiales:",
-    "summary": "¿Soporte institucional, asociaciones o dudas? Ponte en contacto con nuestro equipo.",
-    "hours": "Atención corporativa: lun–vie, 9h–18h (BRT)"
+    "summary": "¿Soporte institucional, alianzas o dudas? Habla con nuestro equipo.",
+    "hours": "Atención: lun–vie, 9:00–18:00 (BRT)"
   },
   "cta": {
     "contact": "Hablar con el equipo"
@@ -55,8 +49,8 @@
   "founder": {
     "open_btn": "Sobre el Fundador",
     "modal": {
-      "title": "Felipe Araújo — Fundador & CEO",
-      "body": "Soy Felipe Araújo, emprendedor brasileño y fundador de MoonRise Technologies. Mi trayectoria en el mercado comenzó hace años, trabajando en áreas como tecnología, programación, marketing digital y gestión empresarial. Estas experiencias me dieron la visión práctica de cómo crecen las empresas, dónde fallan y qué fundamentos realmente sostienen resultados a largo plazo.\n\nSiempre he creído que la disciplina, la transparencia y la consistencia son principios innegociables. No existen atajos: solo proceso, ejecución diaria y responsabilidad personal en cada decisión. Esta mentalidad me trajo hasta aquí y es la base de cómo lidero.\n\nA lo largo de mi camino, vi de cerca un problema recurrente tanto en el mercado tradicional como en el cripto: falta de transparencia, promesas vacías y proyectos que nacen sin base sólida, dejando a los inversores en pérdida. Este escenario me incomodó profundamente. Precisamente por eso decidí fundar MoonRise: para demostrar que es posible construir un ecosistema financiero transparente, serio y a largo plazo.\n\nDesde el inicio, tomé una decisión clara: empezar entregando antes de vender. Incluso antes de la preventa, ya estábamos desarrollando nuestra aplicación, MoonWallet, y estructurando la base de transparencia de la empresa. Hicimos esto con recursos propios, porque creo que solo tiene sentido pedir confianza cuando ya existe ejecución real.\n\nOtra elección estratégica fue respecto al suministro. De los 8 mil millones de tokens activos tras la quema inicial, mi asignación personal es de solo 20 millones (0,25%), todos bloqueados por 12 meses en un contrato público. Esto demuestra que no busco ventaja individual y que no soy una ballena capaz de hundir el precio del mercado. Mi éxito, al igual que el de cualquier inversor, depende exclusivamente del crecimiento sostenible de MoonRise.\n\nMi visión es clara: no estoy aquí para enriquecerme vendiendo tokens, sino para construir una empresa que genere ingresos reales, sólidos y sostenibles. Creo que solo así se crea valor verdadero: cuando tanto la empresa como los inversores crecen juntos.\n\nMoonRise no nació para especular. Nació para gobernar, ejecutar y traer confianza a un mercado desacreditado. Ese es el compromiso que asumo como fundador: liderar con el ejemplo, mantener la disciplina y construir algo que resista el paso del tiempo.",
+      "title": "Felipe Araújo — Fundador y CEO",
+      "body": "Soy Felipe Araújo, emprendedor brasileño y fundador de MoonRise. Mi trayectoria une tecnología, programación, marketing y gestión — experiencias que me mostraron cómo se construyen resultados reales: con disciplina, transparencia y constancia.\n\nMoonRise nació con una misión clara: demostrar que es posible crear un ecosistema financiero transparente, sólido y duradero. Empezamos entregando antes de vender — desarrollando MoonWallet y nuestra base de transparencia desde el inicio con recursos propios.\n\nMi asignación personal es mínima y está bloqueada por contrato público, lo que refuerza que nuestro foco es el crecimiento sostenible, no la especulación. Creemos en el valor real, creado por la ejecución, los resultados y la confianza.\n\nMoonRise no nació para prometer. Nació para entregar — con claridad, responsabilidad y propósito a largo plazo.",
       "cta_label": "Ver perfil en Instagram",
       "close": "Cerrar",
       "aria_close": "Cerrar modal del fundador"

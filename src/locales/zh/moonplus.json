@@ -65,11 +65,6 @@
       { "q": "谁来运营资产？", "a": "行业公司与独立 SPV，自行对其义务负责。" }
     ]
   },
-  "disclaimer": "不承诺收益。操作受市场风险、法律要求及战略调整影响。",
-  "legal": {
-    "moonplus_name": "MoonRise Technologies",
-    "moonplus_jurisdiction": "注册 LLC（怀俄明州，美国）。Moon+：RWA 技术基础设施；非经纪业务。",
-    "moonrise_note": "被投企业在法律上独立并对其义务负责。款项按合同约定划转。",
-    "rights": "保留所有权利。"
-  }
+  "disclaimer": "不承诺收益。操作受市场风险、法律要求及战略调整影响。"
+ 
 }

@@ -347,7 +347,7 @@ export default function Presales() {
       {/* FOOTER */}
       <footer className="bg-black">
         <div className="max-w-6xl mx-auto px-6 py-10 text-center text-sm text-gray-500">
-          {new Date().getFullYear()} © MOONRISE TECHNOLOGIES LLC (WY, USA). All rights reserved.
+          {new Date().getFullYear()} © MOONRISE. All rights reserved.
         </div>
       </footer>
 

@@ -289,27 +289,10 @@ export default function MoonPlusPageClean() {
       )}
 
       {/* Footer (sem links) */}
-{(legalName || legalJur || legalNote || rights) && (
-  <Section className="pb-16">
-    <div className="border-t border-white/10 pt-6 grid gap-2 text-sm text-gray-400 text-center md:text-left">
-      {(legalName || legalJur || legalNote) && (
-        <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-3">
-          <div>
-            {legalName && <strong className="text-gray-200">{legalName}</strong>}
-            {legalJur && <div>{legalJur}</div>}
-          </div>
-          {legalNote && <div className="text-gray-400">{legalNote}</div>}
-        </div>
-      )}
 
-      {rights && (
-        <div className="mt-2 text-xs">
-          © {new Date().getFullYear()} {rights}
-        </div>
-      )}
-    </div>
-  </Section>
-)}
+       <footer className="w-full mt-20 py-6 text-center text-sm text-gray-500">
+          {new Date().getFullYear()} © MOONRISE. All rights reserved.
+        </footer>
 
     </main>
   );

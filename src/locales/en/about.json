@@ -1,22 +1,22 @@
 {
   "title": "MoonRise",
   "hero": {
-    "tag": "COMPANY • STRUCTURE • EXECUTION",
-    "lead": "Holding registered in the USA. Corporate structure, clear governance, and absolute focus on execution and the long term."
+    "tag": "VISION • STRUCTURE • EXECUTION",
+    "lead": "MoonRise is a global ecosystem with solid structure, clear governance, and an uncompromising focus on execution and the long term."
   },
   "who": {
     "title": "Who We Are",
     "paragraphs": [
-      "MoonRise Holdings LLC is a technology and financial company. Our mission is to build real infrastructure with process, security, and scale.",
-      "We operate with international standards, defined internal controls, and objective communication. No promises. Just delivery."
+      "MoonRise is a technology- and finance-driven ecosystem. Our purpose is to build real infrastructure with process, security, and scale.",
+      "We operate with international standards, defined internal controls, and direct communication. No promises. Just delivery."
     ]
   },
   "purpose": {
-    "title": "Our Purpose",
+    "title": "Why We Exist",
     "items": [
-      "Develop critical technology for modern financial operations.",
+      "Develop essential technology for modern financial operations.",
       "Standardize processes, reduce risk, and increase execution speed.",
-      "Connect partners and investors to a serious and auditable operation."
+      "Connect partners and investors to a serious, auditable, and sustainable structure."
     ]
   },
   "values": {
@@ -26,28 +26,22 @@
   "experience": {
     "title": "Our Experience",
     "items": [
-      "System architecture and auditable contracts, focused on security.",
-      "Lean corporate operation, clear processes, and data-driven decisions.",
-      "Continuous delivery: planning, versioning, measuring, and improving."
+      "Building auditable systems and contracts with a security-first mindset.",
+      "Lean operations, clear processes, and data-driven decisions.",
+      "Continuous delivery: plan, version, measure, and keep improving."
     ]
   },
   "stats": [
-    { "value": "Global", "label": "Scope" },
-    { "value": "USA Registration", "label": "Legal base" },
+    { "value": "Global", "label": "Footprint" },
+    { "value": "Solid foundation", "label": "Fundamentals" },
     { "value": "Process", "label": "Execution method" },
     { "value": "Transparent", "label": "Management" }
   ],
-  "legal": {
-    "title": "Legal Registration",
-    "company": "MoonRise Technologies LLC",
-    "place": "Wyoming, USA",
-    "id": "ID #2025-00169-WY"
-  },
   "contact": {
     "title": "Contact Us",
     "channels_title": "Official Channels:",
-    "summary": "Institutional support, partnerships or questions? Get in touch with our team.",
-    "hours": "Corporate service: Mon–Fri, 9am–6pm (BRT)"
+    "summary": "Institutional support, partnerships, or questions? Get in touch with our team.",
+    "hours": "Hours: Mon–Fri, 9am–6pm (BRT)"
   },
   "cta": {
     "contact": "Talk to the team"
@@ -56,7 +50,7 @@
     "open_btn": "About the Founder",
     "modal": {
       "title": "Felipe Araújo — Founder & CEO",
-      "body": "I am Felipe Araújo, a Brazilian entrepreneur and founder of MoonRise Technologies. My career in the market began years ago, working in areas such as technology, programming, digital marketing, and business management. These experiences gave me the practical vision of how companies grow, where they fail, and which foundations truly sustain long-term results.\n\nI have always believed that discipline, transparency, and consistency are non-negotiable principles. There are no shortcuts: only process, daily execution, and personal responsibility in every decision. This mindset brought me here and is the foundation of how I lead.\n\nThroughout my journey, I witnessed a recurring problem both in the traditional market and in the crypto world: lack of transparency, empty promises, and projects born without a solid base, leaving investors at a loss. This scenario deeply bothered me. That’s exactly why I decided to found MoonRise: to prove that it is possible to build a transparent, serious, and long-term financial ecosystem.\n\nFrom the beginning, I made a clear decision: deliver before selling. Even before the presale, we were already developing our application, MoonWallet, and structuring the company’s transparency base. We did this with our own resources, because I believe it only makes sense to ask for someone’s trust when there is already real execution.\n\nAnother strategic choice was regarding the supply. Out of the 8 billion tokens active after the initial burn, my personal allocation is only 20 million (0.25%), all locked for 12 months in a public contract. This shows that I am not seeking individual advantage and that I am not a whale capable of crashing the market price. My success, like that of any investor, depends exclusively on the sustainable growth of MoonRise.\n\nMy vision is clear: I am not here to get rich by dumping tokens, but to build a company that generates real, solid, and sustainable revenues. I believe this is the only way to create true value — when both the company and investors grow together.\n\nMoonRise was not born to speculate. It was born to govern, execute, and bring confidence to a discredited market. This is the commitment I assume as founder: to lead by example, maintain discipline, and build something that stands the test of time.",
+      "body": "I'm Felipe Araújo, a Brazilian entrepreneur and the founder of MoonRise. My journey brings together technology, programming, marketing, and management — experiences that taught me how real results are built: with discipline, transparency, and consistency.\n\nMoonRise was born with a clear mission: to prove it's possible to build a transparent, solid, and enduring financial ecosystem. We started by delivering before selling — developing MoonWallet and our transparency foundation from day one with our own resources.\n\nMy personal allocation is minimal and locked by public contract, reinforcing that our focus is sustainable growth, not speculation. We believe in real value created by execution, outcomes, and trust.\n\nMoonRise wasn't born to promise. It was born to deliver — with clarity, responsibility, and a long-term purpose.",
       "cta_label": "View Instagram profile",
       "close": "Close",
       "aria_close": "Close founder modal"

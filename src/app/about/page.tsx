@@ -77,7 +77,6 @@ export default function AboutCompanyPage() {
           <h1 className="text-5xl md:text-7xl font-extrabold leading-[1.05]">
             <span className="text-white">{t('title')}{' '}</span>
             <span className="bg-gradient-to-r from-purple-500 via-fuchsia-400 to-amber-300 bg-clip-text text-transparent">
-              Holdings
             </span>
           </h1>
 
@@ -154,23 +153,7 @@ export default function AboutCompanyPage() {
           </div>
         </motion.section>
 
-        {/* REGISTRO LEGAL */}
-        <motion.section {...fade(3)} className="mt-20">
-          <div className="mx-auto max-w-md sm:max-w-2xl text-center px-4">
-            <h3 className="text-2xl font-semibold mb-4">{t('legal.title')}</h3>
-            <div className={`${cardBase} w-full p-4 sm:p-5`}>
-              <span className={lineTop} />
-              <ul
-                className="flex flex-col sm:flex-row sm:flex-wrap items-center justify-center gap-2 sm:gap-0 sm:divide-x sm:divide-white/10 text-sm sm:text-base"
-                aria-label={t('legal.title')}
-              >
-                <li className="px-0 sm:px-4 text-gray-300 break-words">{t('legal.company')}</li>
-                <li className="px-0 sm:px-4 text-gray-300 break-words">{t('legal.place')}</li>
-                <li className="px-0 sm:px-4 text-gray-300 break-all font-mono">{t('legal.id')}</li>
-              </ul>
-            </div>
-          </div>
-        </motion.section>
+
 
         {/* CONTATO */}
         <motion.section {...fade(4)} className="mt-24">
@@ -189,7 +172,7 @@ export default function AboutCompanyPage() {
         </motion.section>
 
         <footer className="w-full mt-20 py-6 text-center text-sm text-gray-500">
-          {new Date().getFullYear()} © MOONRISE TECHNOLOGIES LLC (WY, USA). All rights reserved.
+          {new Date().getFullYear()} © MOONRISE. All rights reserved.
         </footer>
       </section>
 

@@ -1,29 +1,18 @@
 {
   "eyebrow": "TECNOLOGÍA • INFRAESTRUCTURA • EJECUCIÓN",
-  "trustBadge": "Operación auditable en tiempo real",
-  "headline": "<1>MoonRise</1> construye un ecosistema <3>completo</3>.<br/>Tecnología propia.<br/>Integración total.<br/>Visión a largo plazo.",
+  "trustBadge": "Operación auditables en tiempo real",
+  "headline": "<1>MoonRise</1> construye un ecosistema <3>completo</3>.<br/>Tecnología propia.<br/>Integración total.<br/>Visión de largo plazo.",
   "slogan": "Potencia tecnológica para el sistema financiero real. Sin hype. Sin excusas.",
-  "subhead": "Empresa de infraestructura sobre blockchain. Productos conectados — red, billetera, exchange y módulos — con base técnica, control directo y misión clara: construir valor real con autonomía.",
+  "subhead": "Infraestructura blockchain conectada — red, billetera, exchange y módulos — con base técnica, control directo y una misión clara: construir valor real con autonomía.",
   "institutionalLine": "Transparencia pública, contratos abiertos y rastreo on-chain 24/7.",
   "kpisAriaLabel": "Indicadores clave",
   "kpis": [
-    {
-      "label": "del suministro circulante bloqueado (on-chain)",
-      "countTo": 68.75,
-      "suffix": "%",
-      "decimals": 2
-    },
-    {
-      "label": "Activos reales tokenizados (Moon+)",
-      "value": "RWA"
-    },
-    {
-      "label": "MoonRise Technologies · WY",
-      "value": "LLC EE.UU."
-    }
+    { "label": "del supply circulante bloqueado (on-chain)", "countTo": 68.75, "suffix": "%", "decimals": 2 },
+    { "label": "Activos reales tokenizados (Moon+)", "value": "RWA" },
+    { "label": "Infraestructura global y auditable", "value": "MoonRise" }
   ],
   "cta": {
     "ecosystem": "Explorar Ecosistema",
-    "presale": "Entrar en la Preventa"
+    "presale": "Unirse a la Preventa"
   }
 }

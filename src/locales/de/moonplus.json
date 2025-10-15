@@ -65,12 +65,5 @@
       { "q": "Wer betreibt die Assets?", "a": "Branchenunternehmen und unabhängige SPVs, verantwortlich für ihre Verpflichtungen." }
     ]
   },
-  "disclaimer": "Kein Renditeversprechen. Operationen unterliegen Marktrisiken, rechtlichen Anforderungen und strategischen Anpassungen.",
-  "legal": {
-    "moonplus_name": "MoonRise Technologies",
-    "moonplus_jurisdiction": "Eingetragene LLC (WY, USA). Moon+: RWA-Technikinfrastruktur; keine Brokerage.",
-    "moonrise_note": "Beteiligungen sind rechtlich unabhängig und für ihre Verpflichtungen verantwortlich. Übertragungen gemäß Verträgen.",
-    "rights": "Alle Rechte vorbehalten."
-   
-  }
+  "disclaimer": "Kein Renditeversprechen. Operationen unterliegen Marktrisiken, rechtlichen Anforderungen und strategischen Anpassungen."
 }

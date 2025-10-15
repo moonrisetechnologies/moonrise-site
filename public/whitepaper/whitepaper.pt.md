@@ -1,15 +1,16 @@
 # Whitepaper — MoonRise (PT-BR)
 
-**Última atualização:** 2025-10-01
+**Última atualização:** 2025-10-01  
 
 ---
 
 ## 1. Visão Executiva  
 
-A MoonRise é uma infraestrutura financeira criada para **execução real**, **transparência integral** e **controle estratégico**.  
+A MoonRise é uma **infraestrutura financeira descentralizada**, criada para **execução real**, **transparência integral** e **controle estratégico**.  
 Com token próprio (**MRS**), carteira dedicada, fundo de liquidez e módulos de governança técnica, a MoonRise opera como um **ecossistema fechado**, integrado e autossuficiente, projetado para escalar.  
 
-Não é promessa futura; é execução presente. Do contrato ao produto final, tudo é **rastreável e público**.  
+Não é promessa futura; é execução presente.  
+Do contrato ao produto final, tudo é **rastreável e público**.  
 
 **Contratos oficiais (BSC):**  
 - **Token MRS:** `0x178A7Ef67fCBC4c3a1a7d4dAee511F21271b6908`  
@@ -20,7 +21,8 @@ Não é promessa futura; é execução presente. Do contrato ao produto final, t
 
 ## 2. Contexto de Mercado  
 
-Grande parte do mercado cripto foi tomada por projetos de hype: lançamentos barulhentos, zero produto e comunidades abandonadas. O investidor sério busca o que é raro:  
+Grande parte do mercado cripto foi tomada por projetos de hype: lançamentos barulhentos, zero produto e comunidades abandonadas.  
+O investidor sério busca o que é raro:  
 
 - Transparência  
 - Estrutura real  
@@ -36,7 +38,7 @@ A MoonRise surge como resposta: engenharia desde o primeiro dia, entrega de prod
 A MoonRise opera por um conjunto de componentes desenvolvidos **100% in-house**:  
 
 - **Token MRS** — moeda do ecossistema, com **taxa dinâmica de venda (3,5%–7,0%)**, **taxa de compra de 0,5%**, **delays/cooldowns anti-dump** e **lock de founder (12 meses)**.  
-- **Moon+ (RWA)** — **infraestrutura técnica** para operações com ativos do mundo real em parceria com **SPEs e empresas independentes**:  
+- **Moon+ (RWA)** — **infraestrutura técnica** para operações com ativos do mundo real em parceria com **SPEs e entidades independentes**:  
   - padrões, contratos e regras públicas/auditáveis on-chain;  
   - **monitoramento on-chain** e relatórios técnicos;  
   - **não intermediamos valores mobiliários. Não somos corretora.** A execução é feita por SPEs e parceiros independentes, sob regras públicas.  
@@ -68,9 +70,9 @@ A MoonRise opera por um conjunto de componentes desenvolvidos **100% in-house**:
 
 **Taxas & Proteções (resumo técnico):**  
 
-- **Compra:** **0,50%** (50 bps) → **Ecossistema**  
+- **Compra:** **0,50%** → **Ecossistema**  
 - **Venda (dinâmica):** **3,5% ou 7,0%** — recalculada a cada **15 min** (se **vendas > compras** na janela, aplica **7,0%**) → **Ecossistema**  
-- **Delay pós-compra:** **5 min** para vender (aplica também a **P2P ancorado** quando habilitado)  
+- **Delay pós-compra:** **5 min** para vender (aplica também a **P2P ancorado**)  
 - **Admin/Segurança:** contrato pausável; renúncia do owner só após **congelar** AMM/isenções e **definir** router; pares AMM são apenas **marcáveis** (não podem ser desmarcados).  
 
 ---
@@ -95,10 +97,10 @@ Todas as movimentações são **rastreáveis** e executadas via **contratos inte
 
 ## 6. Supply Travado, Reservas e MasterVault  
 
-Para disciplina e proteção, a MoonRise utiliza o contrato **MasterVault** (`0xe47B229af03996BdaB9ccb90E1123260c6eD67B3`), que:  
-- controla desbloqueios de tokens por **cronograma imutável**;  
-- impede acesso manual a fundos;  
-- permite auditoria pública de **parcelas** e saldos.  
+A MoonRise utiliza o contrato **MasterVault** (`0xe47B229af03996BdaB9ccb90E1123260c6eD67B3`) para controle, segurança e disciplina:  
+- desbloqueios por **cronograma imutável**;  
+- acesso manual impossibilitado;  
+- auditoria pública de **parcelas e saldos**.  
 
 **Carteiras sob MasterVault (oficiais):**  
 - **Liquidez:** `0xe0a6A9293bbF5CCF121415aEA864ea6dcFA7c95F`  
@@ -107,13 +109,8 @@ Para disciplina e proteção, a MoonRise utiliza o contrato **MasterVault** (`0x
 - **Ecossistema:** `0xbc06CC9A2bc23EBC84F5512E66CffFa4eba6958d`  
 - **Reserva Estratégica:** `0x6C09dC3Dbc57e836CDB42FeF0321CeCac9233f66`  
 
-**Reservas Estratégicas do MasterVault:**  
-A última parcela de **Liquidez** e de **Ecossistema** é mantida exclusivamente para **emergências e agilidade operacional**, como: listagem antecipada em caso de esgotamento da captação, suporte imediato a parcerias ou ajustes técnicos que não podem esperar o cronograma — sempre **público e auditável**.  
-
-**Observação:** nenhum desbloqueio institucional em **2025**; liberações programadas a partir de **2026**.  
-
-**Cláusula de contingência (on-chain):** se **`presaleSoldOut = true`** e **antes de 01/01/2027**, é possível **liberar antecipadamente** apenas a **última parcela** de **Liquidez (350M)** e de **Ecossistema (50M)** para um endereço indicado — uso **excepcional** e **auditável**.  
-
+**Cláusula de contingência (on-chain):**  
+Se **`presaleSoldOut = true`** e **antes de 01/01/2027**, é possível **liberar antecipadamente** apenas a **última parcela** de **Liquidez (350M)** e de **Ecossistema (50M)** — uso **excepcional** e **auditável**.  
 
 ---
 
@@ -125,37 +122,27 @@ A última parcela de **Liquidez** e de **Ecossistema** é mantida exclusivamente
 
 **Entrega:** tokens **enviados no ato da compra** (sem vesting do comprador neste contrato).  
 
-**Políticas operacionais:** limites mínimos/máximos por transação/carteira e eventuais listas de acesso podem ser **ajustados on-chain** e **divulgados** nos canais oficiais.  
+**Políticas operacionais:** limites mínimos/máximos por transação/carteira e listas de acesso podem ser **ajustadas on-chain** e **divulgadas** nos canais oficiais.  
 
-**Finalização & transparência:** após o término, tokens **não vendidos** podem ser **queimados** para `DEAD`. Todas as alocações e splits são **verificáveis on-chain**.  
-
-**Origem dos tokens (prova on-chain):**  
-- **Fonte:** carteira de **Liquidez/DEX** `0xe0a6A9293bbF5CCF121415aEA864ea6dcFA7c95F`.  
-- **Destino:** contrato de **pré-venda** `0xdA89B77ef1770051685039911B64D2C6C2E85891`.  
-- **Montante máximo alocado:** **2.500.000.000 MRS** (subconjunto dos **6,0B** reservados a Liquidez).  
-- **Regra de fim:** tokens **não vendidos** podem ser **queimados** (reduzem o supply circulante).  
-
-*(Sem divulgação de preços ou fases neste documento. Itens comerciais — quando existirem — ficam na interface da captação e canais oficiais.)*  
+**Finalização & transparência:** após o término, tokens **não vendidos** podem ser **queimados**.  
 
 ---
 
 ## 8. Governança e Transparência  
 
 A governança é **temporária e rastreável**, operando 100% por contratos.  
-
 Decisões estruturais são documentadas em tempo real.  
-O fundador **não** possui acesso direto a fundos, liquidez ou contratos — **founder wallet** está travada por **12 meses**.  
+O fundador **não possui** acesso direto a fundos, liquidez ou contratos — **founder wallet** está travada por **12 meses**.  
 A soberania está na **estrutura**, não na figura.  
 
 ---
 
 ## 9. Conclusão  
 
-A MoonRise não nasceu para especular. Foi criada para **governar, executar e construir** um império financeiro — resistente a censura e manipulação.  
+A MoonRise não nasceu para especular.  
+Foi criada para **governar, executar e construir** algo resistente à censura e à manipulação.  
 
 > “A execução precede a valorização. Aqueles que constroem, herdam.”  
-
-**MoonRise Technologies LLC (WY, EUA)**  
 
 ---
 

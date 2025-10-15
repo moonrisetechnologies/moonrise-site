@@ -268,7 +268,7 @@ export default function TokenomicsPage() {
         </section>
 
         <footer className="w-full mt-16 py-6 text-center text-sm text-gray-500">
-          {new Date().getFullYear()} © MOONRISE TECHNOLOGIES LLC (WY, USA). All rights reserved.
+          {new Date().getFullYear()} © MOONRISE. All rights reserved.
         </footer>
       </div>
     </main>

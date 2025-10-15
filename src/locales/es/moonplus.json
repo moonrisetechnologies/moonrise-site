@@ -65,11 +65,5 @@
       { "q": "¿Quién opera los activos?", "a": "Empresas del sector y SPV independientes, responsables de sus obligaciones." }
     ]
   },
-  "disclaimer": "Sin promesa de rendimiento. Operaciones sujetas a riesgos de mercado, requisitos legales y ajustes estratégicos.",
-  "legal": {
-    "moonplus_name": "MoonRise Technologies",
-    "moonplus_jurisdiction": "LLC registrada (WY, USA). Moon+: infraestructura técnica RWA; sin corretaje.",
-    "moonrise_note": "Las participadas son legalmente independientes y responsables de sus obligaciones. Transferencias según contratos.",
-    "rights": "Todos los derechos reservados."
-  }
+  "disclaimer": "Sin promesa de rendimiento. Operaciones sujetas a riesgos de mercado, requisitos legales y ajustes estratégicos."
 }
