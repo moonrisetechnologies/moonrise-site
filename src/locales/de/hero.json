@@ -7,7 +7,7 @@
   "institutionalLine": "Öffentliche Transparenz, offene Verträge und On-Chain-Tracking 24/7.",
   "kpisAriaLabel": "Wichtigste Kennzahlen",
   "kpis": [
-    { "label": "des zirkulierenden Angebots gesperrt (on-chain)", "countTo": 68.75, "suffix": "%", "decimals": 2 },
+    { "label": "des zirkulierenden Angebots gesperrt (on-chain)", "countTo": 75, "suffix": "%", "decimals": 2 },
     { "label": "Tokenisierte Realwerte (Moon+)", "value": "RWA" },
     { "label": "Globale, auditierbare Infrastruktur", "value": "MoonRise" }
   ],

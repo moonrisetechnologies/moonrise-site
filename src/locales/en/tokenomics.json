@@ -32,6 +32,7 @@
     "founderLock": "Tokens locked for 1 year"
   },
 
+ 
   "slices": {
     "pool": "Liquidity (Pool)",
     "presale": "Presale",
@@ -40,8 +41,9 @@
     "dev": "Development",
     "ecosystem": "MoonRise Ecosystem",
     "reserve": "Strategic Reserve",
-    "founder": "Founder"
+    "founder": "Founders"
   },
+
 
   "kpis": {
     "total": "Total Supply",

@@ -1,67 +1,67 @@
 {
   "title": "Transparence MoonRise",
-  "intro": "Chaque ligne est vérifiable. Pas de promesses — seulement de la livraison. Ci-dessous : contrats, hashes et portefeuilles avec preuve on-chain.",
+  "intro": "Chaque ligne est auditables. Pas de promesses — seulement de la livraison. Ci-dessous : contrats, hashes et portefeuilles avec preuve on-chain.",
 
   "protection": {
-    "summary": "MoonRise protège l’économie avec logique et code. Les opérations respectent des limites, appliquent des cooldowns, évitent les abus et transforment chaque action en liquidité réelle — le tout visible en temps réel.",
+    "summary": "MoonRise protège l’économie par la logique et le code. Les opérations respectent des limites, appliquent des cooldowns, évitent les abus et transforment chaque action en liquidité réelle — le tout visible en temps réel.",
     "internalEconomyTitle": "Économie Interne Intelligente",
-    "internalEconomy": "Chaque mouvement de l’écosystème alimente automatiquement la liquidité. Rien n’est statique : chaque clic renforce le système — de manière automatisée, transparente et scalable.",
+    "internalEconomy": "Chaque mouvement de l’écosystème alimente automatiquement la liquidité. Rien n’est statique : chaque clic renforce le système — automatisé, transparent et scalable.",
     "badges": ["Liquidité Intelligente", "Graphique Stabilisé", "Écosystème Réel", "Blocage du Dump"]
   },
 
   "dna": [
-    "✅ Code open source et contrats auditables — vérifiables par tous sur BscScan. Zéro contrôle centralisé.",
-    "✅ Les mouvements génèrent de la liquidité — sans collatéral externe, structure interne vérifiable.",
-    "✅ 100% indépendant — aucune dépendance aux banques ni aux intermédiaires. Contrôle et exécution par smart contract.",
+    "✅ Code open-source et contrats auditables — vérifiables par tous sur BscScan. Zéro contrôle centralisé.",
+    "✅ Les mouvements génèrent de la liquidité — sans adossement externe, structure interne prouvable.",
+    "✅ 100 % indépendant — aucune dépendance aux banques ou intermédiaires. Contrôle et exécution par smart contract.",
     "✅ Défense anti-baleine active — blocage des mouvements suspects pour protéger les holders et le graphique."
   ],
 
   "proof_title": "🚀 Preuves Réelles et Auditables",
-  "proof_intro": "Nous ne demandons pas la confiance. L’exécution est traçable en temps réel sur la blockchain — contrats, hashes et documents publics.",
+  "proof_intro": "Nous ne demandons pas la confiance. Exécution traçable en temps réel sur la blockchain — contrats, hashes et documents publics.",
   "proof": [
     "🔥 Burn initial de 1,7B MRS au déploiement — hash public sur BscScan.",
-    "🧠 Taxe de vente dynamique (3,5% ↔ 7,0%) ajustée automatiquement selon le volume on-chain.",
-    "🔐 Time-lock du fondateur pendant 1 an — tout mouvement avant l’échéance est reverti par le contrat.",
+    "🧠 Frais de vente dynamiques (3,5 % ↔ 7,0 %) ajustés automatiquement selon le volume on-chain.",
+    "🔐 Time-lock du fondateur pendant 1 an — tout mouvement avant l’échéance est annulé par le contrat.",
     "🛠️ Infrastructure publique — adresses officielles immuables et règles on-chain vérifiables."
   ],
 
   "governance": {
     "title": "Gouvernance Temporaire et Transparente",
-    "intro": "Phase initiale avec owner visible et limité : activer/pauser le trading, activer le frein d’urgence et geler les règles on-chain.",
+    "intro": "Phase initiale avec owner visible et limité : activer/mettre en pause le trading, déclencher le frein d’urgence et geler les règles on-chain.",
     "can": {
-      "title": "Ce que l’owner peut faire",
+      "title": "Ce que l’owner PEUT faire",
       "items": [
-        "Pause/reprise du contrat en cas de risque.",
+        "Mettre en pause/reprendre le contrat en cas de risque.",
         "Configurer le router et marquer les paires AMM pour le trading.",
         "Ajuster les protections anti-bot/anti-dump dans des limites publiques.",
-        "Accorder/retirer des exemptions de frais et de cooldown avant le gel.",
-        "Geler les configurations (AMMs, exemptions, paramètres) pour les rendre immuables."
+        "Accorder/retirer des exemptions de frais et de cooldown avant le freeze.",
+        "Geler les configurations (AMM, exemptions, paramètres) pour les rendre immuables."
       ]
     },
     "cannot": {
-      "title": "Ce que l’owner NE peut pas faire",
+      "title": "Ce que l’owner NE PEUT PAS faire",
       "items": [
-        "Créer de nouveaux tokens ou augmenter le supply (pas de mint ; uniquement burn volontaire).",
-        "Déplacer le portefeuille du fondateur avant le time-lock ou réduire ce délai.",
-        "Démarquer un AMM ou remplacer les portefeuilles officiels (liquidité, dev, réserve, etc.).",
-        "Définir la taxe manuellement — le contrat s’ajuste seul entre 3,5% et 7,0%.",
-        "Annuler les gels ou dépasser les limites de sécurité."
+        "Créer de nouveaux tokens ou augmenter l’offre (pas de mint ; uniquement burn volontaire).",
+        "Déplacer le portefeuille du fondateur avant le time-lock ou en réduire la durée.",
+        "Désélectionner un AMM marqué ou changer les portefeuilles officiels (liquidité, dev, réserve, etc.).",
+        "Définir les frais manuellement — le contrat s’auto-ajuste entre 3,5 % et 7,0 %.",
+        "Annuler les freezes ou dépasser les limites de sécurité."
       ]
     }
   },
 
   "ops": {
-    "title": "Opération MoonRise",
+    "title": "Opérations MoonRise",
     "body": "Contrats ouverts. Portefeuilles officiels. Règles exécutées sans contrôle manuel. Chaque action pertinente laisse une trace on-chain en temps réel."
   },
 
   "liquidity": {
     "title": "Politique de Liquidité & Défense de Marché",
     "items": [
-      "Liquidité ouverte par calendrier et règles prédéfinies.",
+      "Liquidité ouverte selon calendrier et règles prédéfinies.",
       "Mécanismes anti-baleine et anti-dump dans le contrat pour protéger les holders et le graphique.",
       "Frais et opérations enregistrés on-chain (BscScan) avec transparence totale.",
-      "Fonds de stabilité et verrous automatisés via MasterVault."
+      "Fonds de stabilité et verrouillages automatisés via MasterVault."
     ]
   },
 
@@ -72,18 +72,18 @@
   },
 
   "lock_reason": {
-    "title": "Pourquoi les tokens sont verrouillés ?",
-    "paragraph_1": "Les tokens de liquidité, marketing, développement, écosystème et réserve suivent des timelocks automatisés dans le MasterVault. Rien n’est utilisé avant l’échéance.",
-    "paragraph_2": "Il n’y a que deux tranches d’urgence dans le MasterVault — la dernière de Liquidité (350M) et la dernière de l’Écosystème (50M). Elles peuvent être libérées avant la date seulement si la prévente est marquée sold out (presaleSoldOut == true), pour un listing anticipé ou un support technique critique. Tout est enregistré on-chain.",
+    "title": "Pourquoi les tokens sont-ils verrouillés ?",
+    "paragraph_1": "Les tokens de liquidité, marketing, développement, écosystème et réserve suivent des timelocks automatisés dans MasterVault. Rien n’est utilisé avant l’heure.",
+    "paragraph_2": "Trois tranches d’urgence existent dans MasterVault — les deux dernières de Liquidité (400M + 400M, prévues pour le 05/12/2026 et le 05/01/2027) et la dernière de l’Écosystème (50M le 05/03/2027). Elles ne peuvent être libérées par anticipation que si la prévente est marquée comme épuisée (presaleSoldOut == true) et uniquement avant la date de déverrouillage, pour un listing anticipé ou un support technique critique. Toute libération est enregistrée on-chain.",
     "paragraph_3": "Le contrat est public, auditable et immuable. Vérifiez chaque ligne directement sur la blockchain.",
     "button": "Voir le contrat MasterVault sur BscScan"
   },
 
   "wallets_title": "Portefeuilles Officiels du Projet",
-  "wallets_lead": "Les adresses ci-dessous composent l’infrastructure publique de MoonRise. Traçables, vérifiables et visibles en temps réel sur la blockchain.",
+  "wallets_lead": "Les adresses ci-dessous constituent l’infrastructure publique de MoonRise. Traçables, vérifiables et visibles en temps réel sur la blockchain.",
 
   "wallet_groups": {
-    "operacao": "Opération",
+    "operacao": "Opérations",
     "crescimento": "Croissance",
     "estabilidade": "Stabilité",
     "distribuicao": "Distribution Initiale des Ressources",
@@ -91,9 +91,9 @@
   },
 
   "wallets": {
-    "ecossistema_presale": "Portefeuille Écosystème — Prévente (62%)",
-    "liquidez_presale": "Portefeuille Liquidité — Prévente (23%)",
-    "dev_init_ops": "Portefeuille Opérations Initiales (15%)",
+    "ecossistema_presale": "Portefeuille Écosystème — Prévente (62 %)",
+    "liquidez_presale": "Portefeuille Liquidité — Prévente (23 %)",
+    "dev_init_ops": "Portefeuille Opérations Initiales (15 %)",
 
     "liquidez": "Portefeuille Liquidité",
     "ecossistema": "Portefeuille Écosystème",
@@ -107,17 +107,17 @@
   },
 
   "wallets_desc": {
-    "ecossistema_presale": "62% de la prévente pour l’expansion de l’écosystème : RWA, app et intégrations stratégiques.",
-    "liquidez_presale": "23% de la prévente pour former des pools, ouvrir le marché et blinder le graphique au lancement.",
-    "dev_init_ops": "15% destinés à couvrir les coûts fondamentaux de démarrage : développement, infrastructure, conformité et support aux premières livraisons.",
+    "ecossistema_presale": "62 % de la prévente pour l’expansion de l’écosystème : RWA, app et intégrations stratégiques.",
+    "liquidez_presale": "23 % de la prévente pour former des pools, ouvrir le marché et blinder le graphique au démarrage.",
+    "dev_init_ops": "15 % pour couvrir les coûts fondamentaux de démarrage : développement, infrastructure, conformité et support des premières livraisons.",
 
-    "liquidez": "Liquidité continue : maintenance des pools, profondeur de carnet et stabilité des prix.",
+    "liquidez": "Liquidité continue : maintenance des pools, profondeur du carnet et stabilité des prix.",
     "ecossistema": "Gestion des fronts MoonRise et exécution d’opérations stratégiques multi-activités.",
-    "desenvolvimento": "Recherche, sécurité et modules cœur axés performance et mise à l’échelle.",
+    "desenvolvimento": "Recherche, sécurité et modules cœur axés performance et échelle.",
     "marketing": "Acquisition et autorité de marque avec objectifs de ROI et croissance globale.",
     "reserva": "Réserve stratégique pour stabilité, chocs de marché et expansion programmée.",
     "fundador": "Tokens verrouillés 1 an (time-lock). Aucun mouvement hors règle.",
-    "admin": "Gouvernance temporaire avec limites publiques et traçables dans le contrat."
+    "admin": "Gouvernance temporaire avec limites publiques traçables on-chain."
   },
 
   "wallets_notes": {
@@ -136,7 +136,7 @@
   },
 
   "whitepaper": { "label": "Lire le Whitepaper" },
-  "disclaimer": { "trigger": "Consulter l’Exonération de Responsabilité" },
+  "disclaimer": { "trigger": "Consulter l’Avertissement" },
 
   "aria": { "copy_address": "Copier l’adresse" },
 

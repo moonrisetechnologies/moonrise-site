@@ -7,7 +7,7 @@
   "institutionalLine": "Transparence publique, contrats ouverts et traçabilité on-chain 24/7.",
   "kpisAriaLabel": "Indicateurs clés",
   "kpis": [
-    { "label": "de l’offre circulante verrouillée (on-chain)", "countTo": 68.75, "suffix": "%", "decimals": 2 },
+    { "label": "de l’offre circulante verrouillée (on-chain)", "countTo": 75, "suffix": "%", "decimals": 2 },
     { "label": "Actifs réels tokenisés (Moon+)", "value": "RWA" },
     { "label": "Infrastructure globale et auditable", "value": "MoonRise" }
   ],

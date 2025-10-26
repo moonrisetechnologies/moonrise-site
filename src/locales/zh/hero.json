@@ -7,7 +7,7 @@
   "institutionalLine": "公开透明、开放合约与 24/7 链上追踪。",
   "kpisAriaLabel": "关键指标",
   "kpis": [
-    { "label": "已锁定流通供给占比（链上）", "countTo": 68.75, "suffix": "%", "decimals": 2 },
+    { "label": "已锁定流通供给占比（链上）", "countTo": 75, "suffix": "%", "decimals": 2 },
     { "label": "真实世界资产代币化（Moon+）", "value": "RWA" },
     { "label": "全球可审计基础设施", "value": "MoonRise" }
   ],

@@ -34,13 +34,13 @@
 
   "slices": {
     "pool": "Liquidez (Pool)",
-    "presale": "Pre-venta",
+    "presale": "Preventa",
     "burned": "Tokens Quemados",
     "marketing": "Marketing",
     "dev": "Desarrollo",
     "ecosystem": "Ecosistema MoonRise",
     "reserve": "Reserva Estratégica",
-    "founder": "Fundador"
+    "founder": "Fundadores"
   },
 
   "kpis": {

@@ -11,51 +11,51 @@ import LegalDisclaimer from '../components/LegalDisclaimer';
 import WhitepaperModal from '../components/WhitepaperModal';
 
 /* ============================ ENDEREÇOS / LINKS ============================ */
-const TOKEN_ADDR      = '0x178A7Ef67fCBC4c3a1a7d4dAee511F21271b6908';
+const TOKEN_ADDR      = '0x8169A998A15142C94d3F03E5C51c216870FBE157';
 const TOKEN_URL       = `https://bscscan.com/address/${TOKEN_ADDR}`;
-const MASTERVAULT_URL = 'https://bscscan.com/address/0xe47B229af03996BdaB9ccb90E1123260c6eD67B3';
+const MASTERVAULT_URL = 'https://bscscan.com/address/0x732Dde35D139F764FCd642Ad7CDc633C2ED60DE6';
 const EXPLORER        = 'https://bscscan.com/address';
 
-/* ============================ CALENDÁRIOS (exemplo) ============================ */
+/* ============================ CALENDÁRIOS (ATUALIZADO) ============================ */
 type ScheduleItem = { date: string; amount: string };
 const SCHEDULE: Record<string, ScheduleItem[]> = {
   liquidez: [
-    { date: '01/04/2026', amount: '350M MRS' },
-    { date: '01/05/2026', amount: '350M MRS' },
-    { date: '01/06/2026', amount: '350M MRS' },
-    { date: '01/07/2026', amount: '350M MRS' },
-    { date: '01/08/2026', amount: '350M MRS' },
-    { date: '01/09/2026', amount: '350M MRS' },
-    { date: '01/10/2026', amount: '350M MRS' },
-    { date: '01/11/2026', amount: '350M MRS' },
-    { date: '01/12/2026', amount: '350M MRS' },
-    { date: '01/01/2027', amount: '350M MRS' }
+    { date: '05/04/2026', amount: '400M MRS' },
+    { date: '05/05/2026', amount: '400M MRS' },
+    { date: '05/06/2026', amount: '400M MRS' },
+    { date: '05/07/2026', amount: '400M MRS' },
+    { date: '05/08/2026', amount: '400M MRS' },
+    { date: '05/09/2026', amount: '400M MRS' },
+    { date: '05/10/2026', amount: '400M MRS' },
+    { date: '05/11/2026', amount: '400M MRS' },
+    { date: '05/12/2026', amount: '400M MRS' },
+    { date: '05/01/2027', amount: '400M MRS' }
   ],
   desenvolvimento: [
-    { date: '01/04/2026', amount: '126M MRS' },
-    { date: '01/06/2026', amount: '126M MRS' },
-    { date: '01/08/2026', amount: '126M MRS' },
-    { date: '01/10/2026', amount: '126M MRS' },
-    { date: '01/12/2026', amount: '126M MRS' }
+    { date: '05/05/2026', amount: '120M MRS' },
+    { date: '05/07/2026', amount: '120M MRS' },
+    { date: '05/09/2026', amount: '120M MRS' },
+    { date: '05/11/2026', amount: '120M MRS' },
+    { date: '05/01/2027', amount: '120M MRS' }
   ],
   marketing: [
-    { date: '01/04/2026', amount: '125M MRS' },
-    { date: '01/06/2026', amount: '125M MRS' },
-    { date: '01/08/2026', amount: '125M MRS' },
-    { date: '01/10/2026', amount: '125M MRS' },
-    { date: '01/12/2026', amount: '125M MRS' },
-    { date: '01/02/2027', amount: '125M MRS' }
+    { date: '05/05/2026', amount: '120M MRS' },
+    { date: '05/07/2026', amount: '120M MRS' },
+    { date: '05/09/2026', amount: '120M MRS' },
+    { date: '05/11/2026', amount: '120M MRS' },
+    { date: '05/01/2027', amount: '120M MRS' },
+    { date: '05/03/2027', amount: '100M MRS' }
   ],
   ecossistema: [
-    { date: '01/04/2026', amount: '100M MRS' },
-    { date: '01/07/2026', amount: '100M MRS' },
-    { date: '01/10/2026', amount: '100M MRS' },
-    { date: '01/01/2027', amount: '50M MRS' }
+    { date: '05/06/2026', amount: '100M MRS' },
+    { date: '05/09/2026', amount: '100M MRS' },
+    { date: '05/12/2026', amount: '100M MRS' },
+    { date: '05/03/2027', amount: '50M MRS' }
   ],
   reserva: [
-    { date: '01/01/2027', amount: '100M MRS' },
-    { date: '01/08/2027', amount: '75M MRS' },
-    { date: '01/03/2028', amount: '75M MRS' }
+    { date: '05/01/2027', amount: '100M MRS' },
+    { date: '05/08/2027', amount: '75M MRS' },
+    { date: '05/03/2028', amount: '75M MRS' }
   ]
 };
 
@@ -70,15 +70,15 @@ const WALLETS: Wallet[] = [
   { key: 'dev_init_ops',        address: '0x9d492BfD7690402acE4707A07dFF1639D4cE4127' },
 
   // OPERAÇÃO — pós-lançamento
-  { key: 'liquidez',            address: '0xe0a6A9293bbF5CCF121415aEA864ea6dcFA7c95F' },
-  { key: 'ecossistema',         address: '0xbc06CC9A2bc23EBC84F5512E66CffFa4eba6958d' },
+  { key: 'liquidez',            address: '0xB25E9FD517b662CD5740dBB34F569f596E5f9992' },
+  { key: 'ecossistema',         address: '0x2C521F6BC51B31EA4a1D366bc2d692Caf8423149' },
 
   // Demais grupos
-  { key: 'desenvolvimento',     address: '0xaC5D1A8A83239B8a1b1AE06B28157c43f0b416E3' },
-  { key: 'marketing',           address: '0x2Feb4cc556cb470067DEa59A12542BEe5F1bd16B' },
-  { key: 'reserva',             address: '0x6C09dC3Dbc57e836CDB42FeF0321CeCac9233f66' },
-  { key: 'admin',               address: '0xcE463be54CD99dC3bc21D9D1934E76B37E4fF141', warnKey: 'wallets_notes.admin' },
-  { key: 'fundador',            address: '0x2d0D394CdD4AD1D185C28064C809C14fBd82f27b', founder: true }
+  { key: 'desenvolvimento',     address: '0xD9Acf6D88586f363b7732cC3D566121A6c6ff1CF' },
+  { key: 'marketing',           address: '0x0286f6AdE4635a736fe62F1355768122f4B282Ed' },
+  { key: 'reserva',             address: '0xA91592ffD959110AE5aB1c6826725Cd939E783f8' },
+  { key: 'admin',               address: '0x68ed81298FFb2BB260dBd329206186a1Fd41d90e', warnKey: 'wallets_notes.admin' },
+  { key: 'fundador',            address: '0x00Ac5b001854Dd5F6c10124E5c1EB2ddF9a0931A', founder: true }
 ];
 
 /* ============================ HELPERS VISUAIS ============================ */
@@ -361,7 +361,7 @@ function ReleaseScheduleTabs({ t, cardBase }: { t: (k: string, o?: any) => any; 
           <h3 className="text-purple-300 font-semibold text-lg">{t(`wallets.${active}`)}</h3>
           <div className="text-xs text-gray-400">
             {t('release_schedule.total_prefix')}{' '}
-            <span className="text-gray-200 font-medium">{formatHuman(totalM)} {tokenSuffix}</span>
+            <span className="text-gray-2 00 font-medium">{formatHuman(totalM)} {tokenSuffix}</span>
           </div>
         </div>
         <ul className="mt-3 space-y-2">

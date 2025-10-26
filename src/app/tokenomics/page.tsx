@@ -11,35 +11,30 @@ export default function TokenomicsPage() {
   type Fund = { title: string; desc: string }
 
   /* ======================= VALORES (alinhados ao contrato) ======================= */
-  // Total inicialmente mintado no deploy
   const TOTAL_MINTED = 9_700_000_000
-
-  // Burn efetuado no deploy
-  const BURNED = 1_700_000_000 // 17.53% do TOTAL_MINTED
-
-  // Supply pós-burn (é o que on-chain costuma reportar como totalSupply())
+  const BURNED       = 1_700_000_000 // ~17.53%
   const TOTAL_SUPPLY = TOTAL_MINTED - BURNED // 8,000,000,000
 
-  // Liquidez total (inclui a pré-venda)
+  // Liquidez total (pool + pré-venda)
   const LIQUIDITY_TOTAL = 6_000_000_000
 
-  // *** NOVO *** Pré-venda
-  const PRESALE = 2_500_000_000
+  // *** NOVO *** Pré-venda somando 2.0B
+  const PRESALE = 2_000_000_000
 
-  // Pool de liquidez (liquidez total - pré-venda)
-  const LIQUIDITY_POOL = LIQUIDITY_TOTAL - PRESALE // 3,500,000,000
+  // Pool de liquidez (liquidez total - pré-venda) = 4.0B
+  const LIQUIDITY_POOL = LIQUIDITY_TOTAL - PRESALE // 4,000,000,000
 
-  // Demais alocações (iguais ao contrato da sua screenshot)
-  const MARKETING = 750_000_000
-  const DEVELOPMENT = 630_000_000
-  const ECOSYSTEM = 350_000_000
-  const STRATEGIC_RESERVE = 250_000_000
-  const FOUNDER_LOCKED = 20_000_000
+  // Alocações on-chain
+  const MARKETING          = 700_000_000
+  const DEVELOPMENT        = 600_000_000
+  const ECOSYSTEM          = 350_000_000
+  const STRATEGIC_RESERVE  = 250_000_000
+  const FOUNDER_LOCKED     = 100_000_000
 
-  // Para exibir no quadro “Supply em Circulação”
-  const CIRCULATING = TOTAL_SUPPLY // (descontos de locks podem ser aplicados se quiser)
+  // Para exibir em “Supply em Circulação”
+  const CIRCULATING = TOTAL_SUPPLY
 
-  // *** IMPORTANTE: base de % do gráfico = TOTAL_MINTED ***
+  // Base do gráfico = TOTAL_MINTED
   const BASE_FOR_PIE = TOTAL_MINTED
   const pct = (amt: number) => (amt / BASE_FOR_PIE) * 100
 
@@ -71,7 +66,6 @@ export default function TokenomicsPage() {
     { name: SLICE.founder,   value: pct(FOUNDER_LOCKED),    amount: FOUNDER_LOCKED,    key: 'founder' },
   ]
 
-  // Cores mapeadas por chave para garantir o vermelho do fundador
   const COLOR_BY_KEY: Record<string, string> = {
     pool: '#a855f7',
     presale: '#38bdf8',
@@ -80,7 +74,7 @@ export default function TokenomicsPage() {
     dev: '#0ea5e9',
     ecosystem: '#aa4a06',
     reserve: '#ff8585',
-    founder: '#ef4444', // vermelho
+    founder: '#ef4444',
   }
 
   const totalPercent = useMemo(
@@ -88,7 +82,6 @@ export default function TokenomicsPage() {
     [chartData]
   )
 
-  // Tooltip custom (alto contraste)
   const TooltipContent = ({ active, payload }: any) => {
     if (!active || !payload?.length) return null
     const p = payload[0]?.payload
@@ -102,10 +95,9 @@ export default function TokenomicsPage() {
   }
 
   /* =============================== Visual ================================ */
-  const cardBase = 'relative rounded-xl bg-white/3 border border-white/10 backdrop-blur-[1px] text-center'
+  const cardBase   = 'relative rounded-xl bg-white/3 border border-white/10 backdrop-blur-[1px] text-center'
   const brandTitle = 'font-extrabold tracking-tight bg-gradient-to-r from-purple-300 via-fuchsia-300 to-amber-200 bg-clip-text text-transparent'
 
-  // Grade: último item full-row se sobrar 1 + Founder sempre full-row
   const remainder = (chartData.length - 1) % 3
   const spanClassForIndex = (idx: number, lastIndex: number, key?: string) => {
     if (idx === 0) return 'col-span-1 md:col-span-3'
@@ -118,14 +110,8 @@ export default function TokenomicsPage() {
     <main className="relative bg-black text-white overflow-hidden">
       {/* BACKDROP */}
       <div aria-hidden className="pointer-events-none absolute inset-0 -z-10">
-        <div
-          className="absolute -top-40 -left-40 h-[720px] w-[720px] rounded-full blur-3xl"
-          style={{ background: 'radial-gradient(closest-side,#a855f7 0%,transparent 70%)', opacity: .18 }}
-        />
-        <div
-          className="absolute -bottom-64 -right-40 h-[640px] w-[640px] rounded-full blur-3xl"
-          style={{ background: 'radial-gradient(closest-side,#f59e0b 0%,transparent 70%)', opacity: .14 }}
-        />
+        <div className="absolute -top-40 -left-40 h-[720px] w-[720px] rounded-full blur-3xl" style={{ background: 'radial-gradient(closest-side,#a855f7 0%,transparent 70%)', opacity: .18 }} />
+        <div className="absolute -bottom-64 -right-40 h-[640px] w-[640px] rounded-full blur-3xl" style={{ background: 'radial-gradient(closest-side,#f59e0b 0%,transparent 70%)', opacity: .14 }} />
         <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:64px_64px] opacity-10" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(0,0,0,0.25)_60%,rgba(0,0,0,0.65)_100%)]" />
       </div>
@@ -149,23 +135,20 @@ export default function TokenomicsPage() {
             <p><strong>🪙 {t('supplyLabels.symbol')}:</strong> {t('supply.symbol')}</p>
             <p><strong><FaNetworkWired className="inline mr-2" aria-hidden="true" />{t('supplyLabels.network')}:</strong> {t('supply.network')}</p>
 
-            {/* Aqui: total mintado, queimados e circulação (pós-burn) */}
             <p><strong>📦 {t('supplyLabels.total')}:</strong> {nf.format(TOTAL_MINTED)}</p>
             <p><strong>🔥 {t('supplyLabels.burned')}:</strong> {nf.format(BURNED)}</p>
             <p><strong>🔄 {t('supplyLabels.circulating')}:</strong> {nf.format(CIRCULATING)}</p>
 
-            {/* Liquidez (pool + pré-venda nova) */}
             <p><strong>🟣 {SLICE.pool}:</strong> {nf.format(LIQUIDITY_POOL)}</p>
             <p><strong>🟡 {SLICE.presale}:</strong> {nf.format(PRESALE)}</p>
           </div>
 
-          {/* CTAs */}
           <div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
             <a href="/transparency" className="inline-flex items-center justify-center rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm hover:bg-white/10 transition">
               🔎 {t('buttons.transparency')}
             </a>
             <a
-              href="https://bscscan.com/token/0x178A7Ef67fCBC4c3a1a7d4dAee511F21271b6908"
+              href="https://bscscan.com/token/0x8169A998A15142C94d3F03E5C51c216870FBE157"
               className="inline-flex items-center justify-center rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm hover:bg-white/10 transition"
               target="_blank" rel="noreferrer"
             >
@@ -192,8 +175,8 @@ export default function TokenomicsPage() {
                   cy="50%"
                   innerRadius={86}
                   outerRadius={124}
-                  paddingAngle={1}     // gap menor
-                  minAngle={2}         // garante fatias mínimas visíveis (fundador!)
+                  paddingAngle={1}
+                  minAngle={2}
                   dataKey="value"
                   isAnimationActive
                   stroke="#0b0b0f"

@@ -20,8 +20,8 @@ const TELEGRAM_GROUP_URL   = 'https://t.me/moonriseofficialcommunity'
 const NOTIFS_CHANNEL_URL   = 'https://t.me/moonbuynotifications'
 
 /** ====== ON-CHAIN ====== */
-const PRESALE       = '0xdA89B77ef1770051685039911B64D2C6C2E85891'
-const TOKEN         = '0x178A7Ef67fCBC4c3a1a7d4dAee511F21271b6908'
+const PRESALE       = '0xe04765B7d6B4c9eDAc0a918b41D243e4F507082D'
+const TOKEN         = '0x8169A998A15142C94d3F03E5C51c216870FBE157'
 const USDT          = '0x55d398326f99059fF775485246999027B3197955'
 const SYMBOL        = 'MRS'
 const DECIMALS      = 18

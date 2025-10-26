@@ -70,14 +70,13 @@
     "total_prefix": "Total previsto nesta carteira:",
     "units": { "million": "milhões", "billion": "bilhões", "token_suffix": "MRS" }
   },
-
-  "lock_reason": {
-    "title": "Por que os tokens estão travados?",
-    "paragraph_1": "Tokens de liquidez, marketing, desenvolvimento, ecossistema e reserva seguem timelocks automatizados no MasterVault. Nada é usado antes da hora.",
-    "paragraph_2": "Existem apenas duas parcelas emergenciais dentro do MasterVault — a última de Liquidez (350M) e a última do Ecossistema (50M). Podem ser liberadas antes da data somente se a pré-venda for marcada como esgotada (presaleSoldOut == true), para listagem antecipada ou suporte técnico crítico. Tudo fica registrado on-chain.",
-    "paragraph_3": "O contrato é público, auditável e imutável. Verifique cada linha diretamente no blockchain.",
-    "button": "Ver contrato MasterVault no BscScan"
-  },
+"lock_reason": {
+  "title": "Por que os tokens estão travados?",
+  "paragraph_1": "Tokens de liquidez, marketing, desenvolvimento, ecossistema e reserva seguem timelocks automatizados no MasterVault. Nada é usado antes da hora.",
+  "paragraph_2": "Existem três parcelas emergenciais dentro do MasterVault — as duas últimas de Liquidez (400M + 400M, previstas para 05/12/2026 e 05/01/2027) e a última do Ecossistema (50M em 05/03/2027). Elas só podem ser liberadas antecipadamente se a pré-venda for marcada como esgotada (presaleSoldOut == true) e apenas antes da data de desbloqueio, para listagem antecipada ou suporte técnico crítico. Toda liberação fica registrada on-chain.",
+  "paragraph_3": "O contrato é público, auditável e imutável. Verifique cada linha diretamente no blockchain.",
+  "button": "Ver contrato MasterVault no BscScan"
+},
 
   "wallets_title": "Carteiras Oficiais do Projeto",
   "wallets_lead": "Os endereços abaixo compõem a infraestrutura pública da MoonRise. Rastreáveis, verificáveis e visíveis em tempo real no blockchain.",

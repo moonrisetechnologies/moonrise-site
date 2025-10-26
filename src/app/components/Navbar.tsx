@@ -11,8 +11,8 @@ import PresalePanel from './presalepanel';
 
 /** ====== CONFIG ====== **/
 const WHITEPAPER_URL = '/whitepaper_EN.pdf';
-const TOKEN_ADDRESS = '0x178A7Ef67fCBC4c3a1a7d4dAee511F21271b6908';
-const MASTERVAULT_ADDRESS = '0xe47B229af03996BdaB9ccb90E1123260c6eD67B3';
+const TOKEN_ADDRESS = '0x8169A998A15142C94d3F03E5C51c216870FBE157';
+const MASTERVAULT_ADDRESS = '0x732Dde35D139F764FCd642Ad7CDc633C2ED60DE6';
 /** ===================== **/
 
 const bscTokenUrl = (addr: string) => `https://bscscan.com/token/${addr}`;

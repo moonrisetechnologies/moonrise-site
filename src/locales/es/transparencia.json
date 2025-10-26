@@ -12,55 +12,55 @@
   "dna": [
     "✅ Código abierto y contratos auditables — cualquiera verifica en BscScan. Cero control centralizado.",
     "✅ Los movimientos generan liquidez — sin respaldo externo, estructura interna comprobable.",
-    "✅ 100% independiente — sin dependencia de bancos o intermediarios. Control y ejecución por contrato inteligente.",
-    "✅ Defensa anti-ballena activa — bloquea movimientos sospechosos para proteger a los holders y el gráfico."
+    "✅ 100% independiente — sin dependencia de bancos ni intermediarios. Control y ejecución por contrato inteligente.",
+    "✅ Defensa anti-ballena activa — bloqueo de movimientos sospechosos para proteger a los holders y al gráfico."
   ],
 
   "proof_title": "🚀 Pruebas Reales y Auditables",
-  "proof_intro": "No pedimos confianza. La ejecución es rastreable en tiempo real en la blockchain — contratos, hashes y documentos públicos.",
+  "proof_intro": "No pedimos confianza. Ejecución rastreable en tiempo real en la blockchain — contratos, hashes y documentos públicos.",
   "proof": [
     "🔥 Quema inicial de 1,7B MRS en el deploy — hash público en BscScan.",
-    "🧠 Tasa de venta dinámica (3,5% ↔ 7,0%) ajustada automáticamente según el volumen on-chain.",
+    "🧠 Tarifa de venta dinámica (3,5% ↔ 7,0%) ajustada automáticamente según el volumen on-chain.",
     "🔐 Time-lock del fundador por 1 año — cualquier movimiento antes del plazo es revertido por el contrato.",
     "🛠️ Infraestructura pública — direcciones oficiales inmutables y reglas on-chain verificables."
   ],
 
   "governance": {
     "title": "Gobernanza Temporal y Transparente",
-    "intro": "Fase inicial con owner visible y limitado: habilitar/pausar negociación, accionar freno de emergencia y congelar reglas on-chain.",
+    "intro": "Fase inicial con owner visible y limitado: activar/pausar negociación, accionar freno de emergencia y congelar reglas on-chain.",
     "can": {
-      "title": "Qué puede hacer el owner",
+      "title": "Lo que el owner PUEDE hacer",
       "items": [
         "Pausar/reanudar el contrato en caso de riesgo.",
-        "Configurar router y marcar pares AMM para negociación.",
+        "Configurar el router y marcar pares AMM para negociación.",
         "Ajustar protecciones anti-bot/anti-dump dentro de límites públicos.",
-        "Conceder/retirar exención de tasa y cooldown antes del freeze.",
-        "Congelar configuraciones (AMMs, exenciones, parámetros) para volverlas inmutables."
+        "Conceder/revocar exención de tarifa y cooldown antes del freeze.",
+        "Congelar configuraciones (AMM, exenciones, parámetros) para hacerlas inmutables."
       ]
     },
     "cannot": {
-      "title": "Qué NO puede hacer el owner",
+      "title": "Lo que el owner NO puede hacer",
       "items": [
         "Crear nuevos tokens o aumentar el supply (sin mint; solo burn voluntario).",
         "Mover la cartera del fundador antes del time-lock o reducir ese plazo.",
         "Desmarcar un AMM marcado o cambiar carteras oficiales (liquidez, dev, reserva, etc.).",
-        "Definir la tasa manualmente — el contrato se ajusta solo entre 3,5% y 7,0%.",
-        "Deshacer freezes o sobrepasar límites de seguridad."
+        "Definir la tarifa manualmente — el contrato se ajusta solo entre 3,5% y 7,0%.",
+        "Deshacer freezes o superar límites de seguridad."
       ]
     }
   },
 
   "ops": {
     "title": "Operación MoonRise",
-    "body": "Contratos abiertos. Carteras oficiales. Reglas ejecutadas sin control manual. Toda acción relevante deja rastro on-chain en tiempo real."
+    "body": "Contratos abiertos. Carteras oficiales. Reglas ejecutadas sin control manual. Cada acción relevante deja rastro on-chain en tiempo real."
   },
 
   "liquidity": {
     "title": "Política de Liquidez y Defensa de Mercado",
     "items": [
       "Liquidez abierta por calendario y reglas predefinidas.",
-      "Mecanismos anti-ballena y anti-dump en el contrato para proteger holders y el gráfico.",
-      "Tasas y operaciones registradas on-chain (BscScan) con transparencia total.",
+      "Mecanismos anti-ballena y anti-dump en el contrato para proteger a los holders y al gráfico.",
+      "Tarifas y operaciones registradas on-chain (BscScan) con transparencia total.",
       "Fondo de estabilidad y bloqueos automatizados vía MasterVault."
     ]
   },
@@ -68,19 +68,19 @@
   "release_schedule": {
     "title": "Calendario de Liberación de Tokens",
     "total_prefix": "Total previsto en esta cartera:",
-    "units": { "million": "millones", "billion": "miles de millones", "token_suffix": "MRS" }
+    "units": { "million": "millones", "billion": "mil millones", "token_suffix": "MRS" }
   },
 
   "lock_reason": {
     "title": "¿Por qué los tokens están bloqueados?",
-    "paragraph_1": "Tokens de liquidez, marketing, desarrollo, ecosistema y reserva siguen timelocks automatizados en el MasterVault. Nada se usa antes de tiempo.",
-    "paragraph_2": "Solo hay dos tramos de emergencia dentro del MasterVault — el último de Liquidez (350M) y el último del Ecosistema (50M). Pueden liberarse antes de la fecha solo si la preventa se marca como agotada (presaleSoldOut == true), para listado anticipado o soporte técnico crítico. Todo queda registrado on-chain.",
+    "paragraph_1": "Tokens de liquidez, marketing, desarrollo, ecosistema y reserva siguen timelocks automatizados en MasterVault. Nada se usa antes de tiempo.",
+    "paragraph_2": "Existen tres tramos de emergencia dentro de MasterVault — los dos últimos de Liquidez (400M + 400M, previstos para 05/12/2026 y 05/01/2027) y el último del Ecosistema (50M el 05/03/2027). Solo pueden liberarse anticipadamente si la preventa está marcada como agotada (presaleSoldOut == true) y solo antes de la fecha de desbloqueo, para listado anticipado o soporte técnico crítico. Toda liberación queda registrada on-chain.",
     "paragraph_3": "El contrato es público, auditable e inmutable. Verifique cada línea directamente en la blockchain.",
     "button": "Ver contrato MasterVault en BscScan"
   },
 
   "wallets_title": "Carteras Oficiales del Proyecto",
-  "wallets_lead": "Las direcciones abajo componen la infraestructura pública de MoonRise. Rastreables, verificables y visibles en tiempo real en la blockchain.",
+  "wallets_lead": "Las direcciones siguientes componen la infraestructura pública de MoonRise. Rastreables, verificables y visibles en tiempo real en la blockchain.",
 
   "wallet_groups": {
     "operacao": "Operación",
@@ -106,18 +106,18 @@
     "view_on_explorer": "Ver en BscScan"
   },
 
- "wallets_desc": {
+  "wallets_desc": {
     "ecossistema_presale": "62% de la preventa para expansión del ecosistema: RWA, app e integraciones estratégicas.",
     "liquidez_presale": "23% de la preventa para formar pools, abrir mercado y blindar el gráfico en la salida.",
-    "dev_init_ops": "15% destinados a cubrir costos fundamentales de arranque: desarrollo, infraestructura, compliance y soporte a las entregas iniciales.",
+    "dev_init_ops": "15% destinado a cubrir costos fundamentales de inicio: desarrollo, infraestructura, compliance y soporte a las primeras entregas.",
 
     "liquidez": "Liquidez continua: mantenimiento de pools, profundidad de libro y estabilidad de precio.",
-    "ecossistema": "Gestión de los frentes MoonRise y ejecución de operaciones estratégicas multinegocio.",
+    "ecossistema": "Gestión de frentes de MoonRise y ejecución de operaciones estratégicas multinegocio.",
     "desenvolvimento": "Investigación, seguridad y módulos core con foco en rendimiento y escala.",
     "marketing": "Adquisición y autoridad de marca con metas de ROI y crecimiento global.",
     "reserva": "Reserva estratégica para estabilidad, choques de mercado y expansión programada.",
     "fundador": "Tokens bloqueados por 1 año (time-lock). Sin movimiento fuera de la regla.",
-    "admin": "Gobernanza temporal con límites públicos y rastreables en el contrato."
+    "admin": "Gobernanza temporal con límites públicos y rastreables on-chain."
   },
 
   "wallets_notes": {
@@ -136,7 +136,7 @@
   },
 
   "whitepaper": { "label": "Leer el Whitepaper" },
-  "disclaimer": { "trigger": "Consultar el Aviso de Responsabilidad" },
+  "disclaimer": { "trigger": "Consultar el Descargo de Responsabilidad" },
 
   "aria": { "copy_address": "Copiar dirección" },
 

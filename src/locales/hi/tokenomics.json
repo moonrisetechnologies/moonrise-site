@@ -33,13 +33,13 @@
   },
 
   "slices": {
-    "pool": "लिक्विडिटी (Pool)",
-    "presale": "प्री-सेल",
+    "pool": "तरलता (पूल)",
+    "presale": "प्रीसेल",
     "burned": "जले हुए टोकन",
     "marketing": "मार्केटिंग",
-    "dev": "डेवलपमेंट",
-    "ecosystem": "MoonRise इकोसिस्टम",
-    "reserve": "स्ट्रैटेजिक रिज़र्व",
+    "dev": "विकास",
+    "ecosystem": "MoonRise पारिस्थितिकी तंत्र",
+    "reserve": "रणनीतिक रिज़र्व",
     "founder": "संस्थापक"
   },
 

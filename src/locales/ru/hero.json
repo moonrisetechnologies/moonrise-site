@@ -7,7 +7,7 @@
   "institutionalLine": "Публичная прозрачность, открытые контракты и on-chain-трекер 24/7.",
   "kpisAriaLabel": "Ключевые показатели",
   "kpis": [
-    { "label": "заблокировано из обращающегося объёма (on-chain)", "countTo": 68.75, "suffix": "%", "decimals": 2 },
+    { "label": "заблокировано из обращающегося объёма (on-chain)", "countTo": 75, "suffix": "%", "decimals": 2 },
     { "label": "Токенизированные реальные активы (Moon+)", "value": "RWA" },
     { "label": "Глобальная, аудируемая инфраструктура", "value": "MoonRise" }
   ],

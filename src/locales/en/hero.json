@@ -7,7 +7,7 @@
   "institutionalLine": "Public transparency, open contracts and 24/7 on-chain tracking.",
   "kpisAriaLabel": "Key indicators",
   "kpis": [
-    { "label": "of circulating supply locked (on-chain)", "countTo": 68.75, "suffix": "%", "decimals": 2 },
+    { "label": "of circulating supply locked (on-chain)", "countTo": 75, "suffix": "%", "decimals": 2 },
     { "label": "Tokenized real-world assets (Moon+)", "value": "RWA" },
     { "label": "Global, auditable infrastructure", "value": "MoonRise" }
   ],

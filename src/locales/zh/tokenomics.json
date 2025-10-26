@@ -33,10 +33,10 @@
   },
 
   "slices": {
-    "pool": "流动性 (Pool)",
+    "pool": "流动性（池）",
     "presale": "预售",
     "burned": "已销毁代币",
-    "marketing": "市场营销",
+    "marketing": "营销",
     "dev": "开发",
     "ecosystem": "MoonRise 生态系统",
     "reserve": "战略储备",
