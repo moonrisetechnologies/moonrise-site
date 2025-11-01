@@ -28,7 +28,7 @@
     "title": "Como funciona a pré-venda?",
     "token": "Token: MoonRise (MRS) — padrão BEP-20",
     "smart": "Execução 100% automatizada via contrato inteligente (sem custódia manual)",
-    "phases5": "7 fases progressivas com preços e limites públicos",
+    "phases5": "5 fases progressivas com preços e limites públicos",
     "delivery": "Entrega instantânea dos tokens após a compra",
     "minimum": "Valor mínimo por transação: 5 USDT ou equivalente em BNB",
     "minTx": "Valor mínimo por transação: {{usdt}} USDT ou {{bnb}} BNB (≈ {{fiat}})",

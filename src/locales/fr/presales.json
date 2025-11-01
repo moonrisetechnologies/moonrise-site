@@ -27,7 +27,7 @@
     "title": "Comment fonctionne la prévente ?",
     "token": "Jeton : MoonRise (MRS) — standard BEP-20",
     "smart": "Exécution 100% automatisée via contrat intelligent (aucune garde manuelle)",
-    "phases5": "7 phases progressives avec prix et limites publics",
+    "phases5": "5 phases progressives avec prix et limites publics",
     "delivery": "Livraison instantanée des jetons après l’achat",
     "minimum": "Montant minimum par transaction : 5 USDT ou équivalent en BNB",
     "minTx": "Montant minimum par transaction : {{usdt}} USDT ou {{bnb}} BNB (≈ {{fiat}})",

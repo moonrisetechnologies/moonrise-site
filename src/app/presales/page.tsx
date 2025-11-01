@@ -9,7 +9,7 @@ import contractAbi from '../../abi/PresaleABI.json';
 import PresalePanel from '../components/presalepanel';
 import { FaRocket, FaWater, FaCogs, FaLayerGroup, FaGlobeAmericas } from 'react-icons/fa';
 
-const CONTRACT_ADDRESS = '0xdA89B77ef1770051685039911B64D2C6C2E85891';
+const CONTRACT_ADDRESS = '0xe04765B7d6B4c9eDAc0a918b41D243e4F507082D';
 const TOTAL_PHASES = 7;                 // contrato novo
 const MIN_USDT = 5;                     // mínimo oficial (USDT)
 const SHOW_TEST_BURN_NOTICE = true;     // texto vem do i18n (notice.testBurn)
@@ -258,7 +258,7 @@ export default function Presales() {
           <ul className="list-disc list-inside text-gray-400 space-y-2 mb-2">
             <li>{t('structure.token')}</li>
             <li>{t('structure.smart')}</li>
-            <li>{t('structure.phases7')}</li>
+            <li>{t('structure.phases5')}</li>
             <li>{t('structure.delivery')}</li>
             <li>
               Valor mínimo por transação: {MIN_USDT} USDT

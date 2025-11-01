@@ -27,7 +27,7 @@
     "title": "预售如何运作？",
     "token": "代币: MoonRise (MRS) — BEP-20 标准",
     "smart": "100% 自动执行智能合约（无人工托管）",
-    "phases5": "7 个逐步阶段，具有公开价格和限制",
+    "phases5": "5 个逐步阶段，具有公开价格和限制",
     "delivery": "购买后立即交付代币",
     "minimum": "每笔交易的最低金额：5 USDT 或等值 BNB",
     "minTx": "最低交易金额：{{usdt}} USDT 或 {{bnb}} BNB (≈ {{fiat}})",

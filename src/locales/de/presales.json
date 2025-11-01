@@ -27,7 +27,7 @@
     "title": "Wie funktioniert der Vorverkauf?",
     "token": "Token: MoonRise (MRS) — BEP-20 Standard",
     "smart": "100% automatisierte Ausführung über Smart Contract (keine manuelle Verwahrung)",
-    "phases5": "7 progressive Phasen mit öffentlichen Preisen und Limits",
+    "phases5": "5 progressive Phasen mit öffentlichen Preisen und Limits",
     "delivery": "Sofortige Lieferung der Tokens nach dem Kauf",
     "minimum": "Mindestbetrag pro Transaktion: 5 USDT oder entsprechend BNB",
     "minTx": "Mindestbetrag pro Transaktion: {{usdt}} USDT oder {{bnb}} BNB (≈ {{fiat}})",

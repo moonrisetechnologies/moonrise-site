@@ -27,7 +27,7 @@
     "title": "¿Cómo funciona la preventa?",
     "token": "Token: MoonRise (MRS) — estándar BEP-20",
     "smart": "Ejecución 100% automatizada mediante contrato inteligente (sin custodia manual)",
-    "phases5": "7 fases progresivas con precios y límites públicos",
+    "phases5": "5 fases progresivas con precios y límites públicos",
     "delivery": "Entrega instantánea de los tokens tras la compra",
     "minimum": "Monto mínimo por transacción: 5 USDT o equivalente en BNB",
     "minTx": "Monto mínimo por transacción: {{usdt}} USDT o {{bnb}} BNB (≈ {{fiat}})",

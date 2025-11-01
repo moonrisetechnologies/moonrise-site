@@ -27,7 +27,7 @@
     "title": "How does the presale work?",
     "token": "Token: MoonRise (MRS) — BEP-20 standard",
     "smart": "100% automated execution via smart contract (no manual custody)",
-    "phases5": "7 progressive phases with public prices and limits",
+    "phases5": "5 progressive phases with public prices and limits",
     "delivery": "Instant token delivery after purchase",
     "minimum": "Minimum transaction amount: 5 USDT or equivalent in BNB",
     "minTx": "Minimum transaction amount: {{usdt}} USDT or {{bnb}} BNB (≈ {{fiat}})",
