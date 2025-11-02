@@ -26,7 +26,7 @@ const USDT          = '0x55d398326f99059fF775485246999027B3197955'
 const SYMBOL        = 'MRS'
 const DECIMALS      = 18
 const BSC_CHAIN_ID  = 56
-const NUM_PHASES    = 7
+const NUM_PHASES    = 5
 
 const PRESALE_ABI = [
   'function panelCurrentPhase() view returns (uint8 idx,uint256 priceUsd18,uint256 capTokens,uint256 soldTokens,uint256 remainingTokens,bool ended)',

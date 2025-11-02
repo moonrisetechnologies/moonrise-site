@@ -1,27 +1,27 @@
 # Whitepaper — MoonRise (ES)
 
-**Última actualización:** 2025-10-01  
+**Última actualización:** 2025-10-27  
 
 ---
 
 ## 1. Visión Ejecutiva  
 
 MoonRise es una **infraestructura financiera descentralizada**, creada para la **ejecución real**, la **transparencia total** y el **control estratégico**.  
-Con su propio token (**MRS**), billetera dedicada, fondo de liquidez y módulos de gobernanza técnica, MoonRise opera como un **ecosistema cerrado**, integrado, autosuficiente y diseñado para escalar.  
+Con su propio token (**MRS**), billetera dedicada, fondo de liquidez y módulos de gobernanza técnica, MoonRise opera como un **ecosistema cerrado**, integrado y autosuficiente, diseñado para escalar.  
 
 No es una promesa futura; es ejecución presente.  
 Desde el contrato hasta el producto final, todo es **rastreable y público**.  
 
 **Contratos oficiales (BSC):**  
-- **Token MRS:** `0x178A7Ef67fCBC4c3a1a7d4dAee511F21271b6908`  
-- **Venta inicial (preventa):** `0xdA89B77ef1770051685039911B64D2C6C2E85891`  
-- **MasterVault:** `0xe47B229af03996BdaB9ccb90E1123260c6eD67B3`  
+- **Token MRS:** `0x8169A998A15142C94d3F03E5C51c216870FBE157`  
+- **Captación inicial (preventa):** `0xe04765B7d6B4c9eDAc0a918b41D243e4F507082D`  
+- **MasterVault:** `0x732Dde35D139F764FCd642Ad7CDc633C2ED60DE6`  
 
 ---
 
-## 2. Contexto del Mercado  
+## 2. Contexto de Mercado  
 
-Gran parte del mercado cripto ha sido dominado por proyectos de hype: lanzamientos ruidosos, cero producto y comunidades abandonadas.  
+Gran parte del mercado cripto ha sido tomado por proyectos de hype: lanzamientos ruidosos, sin producto y comunidades abandonadas.  
 El inversor serio busca lo que es raro:  
 
 - Transparencia  
@@ -29,22 +29,22 @@ El inversor serio busca lo que es raro:
 - Ejecución comprobada  
 - Liquidez verdadera  
 
-MoonRise surge como respuesta: ingeniería desde el primer día, entrega de producto y una marca basada en la precisión, la constancia y la ambición global.  
+MoonRise surge como respuesta: ingeniería desde el primer día, entrega de producto y una marca basada en la precisión, constancia y ambición global.  
 
 ---
 
 ## 3. Ecosistema MoonRise  
 
-MoonRise opera a través de un conjunto de componentes desarrollados **100% internamente**:  
+MoonRise opera mediante un conjunto de componentes desarrollados **100% internamente**:  
 
-- **Token MRS** — moneda central del ecosistema, con **tasa dinámica de venta (3,5%–7,0%)**, **tasa de compra de 0,5%**, **retrasos/cooldowns anti-dump** y **bloqueo del fundador por 12 meses**.  
-- **Moon+ (RWA)** — **infraestructura técnica** para operaciones con activos del mundo real en colaboración con **entidades y sociedades independientes (SPEs)**:  
-  - contratos y normas públicas y auditables en cadena;  
+- **Token MRS** — moneda del ecosistema, con **tasa dinámica de venta (3,5%–7,0%)**, **tasa de compra del 0,5%**, **delays/cooldowns anti-dump** y **bloqueo del fundador (12 meses)**.  
+- **Moon+ (RWA)** — **infraestructura técnica** para operaciones con activos del mundo real en colaboración con **SPEs y entidades independientes**:  
+  - estándares, contratos y reglas públicas/auditables on-chain;  
   - **monitoreo on-chain** y reportes técnicos;  
-  - **no intermediamos valores mobiliarios ni actuamos como correduría.** La ejecución la realizan entidades independientes bajo reglas públicas.  
-- **MoonWallet** — billetera multi-chain propia, con datos en tiempo real e integración con los dApps del ecosistema.  
+  - **no intermediamos valores mobiliarios. No somos una corredora.** La ejecución es realizada por SPEs y socios independientes bajo reglas públicas.  
+- **MoonWallet** — billetera propia multi-chain con datos en tiempo real e integración con dApps del ecosistema.  
 
-**Principio:** inversión en el mundo real, valor capturado dentro del ecosistema.  
+**Principio:** inversión en el mundo real, valor capturado en el ecosistema.  
 
 ---
 
@@ -52,34 +52,34 @@ MoonRise opera a través de un conjunto de componentes desarrollados **100% inte
 
 **Token:** MoonRise (**MRS**) — estándar **BEP-20**  
 **Suministro total (emitido):** **9.700.000.000 MRS**  
-**Quema inicial (en el despliegue):** **1.700.000.000 MRS**  
+**Quema inicial (en el deploy):** **1.700.000.000 MRS**  
 **Suministro post-quema (activo on-chain):** **8.000.000.000 MRS**  
-**Contrato oficial (MRS):** `0x178A7Ef67fCBC4c3a1a7d4dAee511F21271b6908`  
+**Contrato oficial (MRS):** `0x8169A998A15142C94d3F03E5C51c216870FBE157`  
 
-**Distribución (sobre el suministro post-quema):**  
-- **Liquidez/DEX:** **6.000.000.000** (**75,00%**) — `0xe0a6A9293bbF5CCF121415aEA864ea6dcFA7c95F`  
-- **Marketing:** **750.000.000** (**9,375%**) — `0x2Feb4cc556cb470067DEa59A12542BEe5F1bd16B`  
-- **Desarrollo:** **630.000.000** (**7,875%**) — `0xaC5D1A8A83239B8a1b1AE06B28157c43f0b416E3`  
-- **Ecosistema:** **350.000.000** (**4,375%**) — `0xbc06CC9A2bc23EBC84F5512E66CffFa4eba6958d`  
-- **Reserva Estratégica:** **250.000.000** (**3,125%**) — `0x6C09dC3Dbc57e836CDB42FeF0321CeCac9233f66`  
-- **Fundador (bloqueado por 12 meses):** **20.000.000** (**0,25%**) — `0x2d0D394CdD4AD1D185C28064C809C14fBd82f27b`  
+**Distribución (sobre el suministro post-quema: 8,0B):**  
+- **Liquidez/DEX:** **6.000.000.000** (**75,00%**) — `0xB25E9FD517b662CD5740dBB34F569f596E5f9992`  
+- **Marketing:** **700.000.000** (**7,21%**) — `0x0286f6AdE4635a736fe62F1355768122f4B282Ed`  
+- **Desarrollo:** **600.000.000** (**6,18%**) — `0xD9Acf6D88586f363b7732cC3D566121A6c6ff1CF`  
+- **Ecosistema:** **350.000.000** (**3,60%**) — `0x2C521F6BC51B31EA4a1D366bc2d692Caf8423149`  
+- **Reserva Estratégica:** **250.000.000** (**2,57%**) — `0xA91592ffD959110AE5aB1c6826725Cd939E783f8`  
+- **Fundador (bloqueado 12 meses):** **100.000.000** (**1,03%**) — `0x00Ac5b001854Dd5F6c10124E5c1EB2ddF9a0931A`  
 
-> **Origen de los tokens para la preventa:** transferencia on-chain desde la **cartera de Liquidez** `0xe0a6A9293bbF5CCF121415aEA864ea6dcFA7c95F` al **contrato de preventa** `0xdA89B77ef1770051685039911B64D2C6C2E85891`.  
+> **Origen de los tokens de la preventa:** salida on-chain de la **cartera de Liquidez** `0xB25E9FD517b662CD5740dBB34F569f596E5f9992` hacia el **contrato de captación** `0xe04765B7d6B4c9eDAc0a918b41D243e4F507082D`.  
 
-> **Sin acuñaciones adicionales.** Los tokens **no vendidos** pueden ser **quemados** en `0x000000000000000000000000000000000000dEaD`.  
+> **Sin mint adicional.** Los tokens **no vendidos** pueden ser **quemados** en `0x000000000000000000000000000000000000dEaD`.  
 
 **Tasas y Protecciones (resumen técnico):**  
 
 - **Compra:** **0,50%** → **Ecosistema**  
 - **Venta (dinámica):** **3,5% o 7,0%** — recalculada cada **15 min** (si **ventas > compras**, se aplica **7,0%**) → **Ecosistema**  
-- **Retraso post-compra:** **5 min** antes de poder vender (también aplica al **P2P anclado**)  
-- **Administración/Seguridad:** contrato pausible; renuncia del propietario solo tras **bloquear** AMM/exenciones y **definir** router; los pares AMM solo pueden ser **marcados**, no **desmarcados**.  
+- **Delay post-compra:** **5 min** antes de vender (también aplica a **P2P anclado**)  
+- **Admin/Seguridad:** contrato pausable; renuncia del owner solo tras **congelar** AMM/exenciones y **definir** router; los pares AMM solo pueden **marcarse** (no desmarcarse).  
 
 ---
 
-## 5. Uso de los Fondos  
+## 5. Uso de los Fondos Captados  
 
-**División automática on-chain (BNB/USDT):**  
+**División automática (on-chain) de la captación en BNB/USDT:**  
 - **62%** — **Ecosistema** (`0x7c6e0128b390cD108d0D3B1976830943Ab7CDD6E`)  
 - **23%** — **Liquidez** (`0xf3843Ec0571192EB109D12aba50F54d59a961E30`)  
 - **15%** — **Desarrollo/Operación inicial** (`0x9d492BfD7690402acE4707A07dFF1639D4cE4127`)  
@@ -88,43 +88,43 @@ Aplicación práctica:
 
 - **Expansión de Desarrollo** — nuevos productos, seguridad y módulos estratégicos.  
 - **Operaciones del Ecosistema** — infraestructura, soporte y monitoreo on-chain.  
-- **Liquidez** — inyecciones programadas para mantener una profundidad saludable de mercado.  
-- **Marketing Institucional** — fortalecimiento de la marca global.  
+- **Liquidez** — inyecciones programadas para mantener una profundidad de mercado saludable.  
+- **Marketing Institucional** — fortalecimiento de marca global.  
 
-Todas las operaciones son **rastreables** y ejecutadas mediante **contratos inteligentes**.  
+Todas las transacciones son **rastreables** y ejecutadas mediante **contratos inteligentes**.  
 
 ---
 
 ## 6. Suministro Bloqueado, Reservas y MasterVault  
 
-MoonRise utiliza el contrato **MasterVault** (`0xe47B229af03996BdaB9ccb90E1123260c6eD67B3`) para control, disciplina y seguridad:  
-- desbloqueos según **cronograma inmutable**;  
-- sin acceso manual a fondos;  
+MoonRise utiliza el contrato **MasterVault** (`0x732Dde35D139F764FCd642Ad7CDc633C2ED60DE6`) para control, seguridad y disciplina:  
+- desbloqueos por **cronograma inmutable**;  
+- acceso manual deshabilitado;  
 - auditoría pública de **porciones y saldos**.  
 
-**Carteras bajo MasterVault:**  
-- **Liquidez:** `0xe0a6A9293bbF5CCF121415aEA864ea6dcFA7c95F`  
-- **Desarrollo:** `0xaC5D1A8A83239B8a1b1AE06B28157c43f0b416E3`  
-- **Marketing:** `0x2Feb4cc556cb470067DEa59A12542BEe5F1bd16B`  
-- **Ecosistema:** `0xbc06CC9A2bc23EBC84F5512E66CffFa4eba6958d`  
-- **Reserva Estratégica:** `0x6C09dC3Dbc57e836CDB42FeF0321CeCac9233f66`  
+**Carteras bajo MasterVault (oficiales):**  
+- **Liquidez:** `0xB25E9FD517b662CD5740dBB34F569f596E5f9992`  
+- **Desarrollo:** `0xD9Acf6D88586f363b7732cC3D566121A6c6ff1CF`  
+- **Marketing:** `0x0286f6AdE4635a736fe62F1355768122f4B282Ed`  
+- **Ecosistema:** `0x2C521F6BC51B31EA4a1D366bc2d692Caf8423149`  
+- **Reserva Estratégica:** `0xA91592ffD959110AE5aB1c6826725Cd939E783f8`  
 
 **Cláusula de contingencia (on-chain):**  
-Si **`presaleSoldOut = true`** y **antes del 01/01/2027**, se puede **liberar anticipadamente** solo la **última porción** de **Liquidez (350M)** y **Ecosistema (50M)** — uso **excepcional** y **auditable**.  
+Si **`presaleSoldOut = true`** y **antes del 05/04/2026**, es posible **liberar anticipadamente** solo las **2 últimas porciones** de **Liquidez (800M)** y **Ecosistema (50M)** — uso **excepcional** y **auditado**.  
 
 ---
 
 ## 7. Preventa Inicial  
 
-**Contrato:** `0xdA89B77ef1770051685039911B64D2C6C2E85891`  
+**Contrato:** `0xe04765B7d6B4c9eDAc0a918b41D243e4F507082D`  
 
 **Monedas aceptadas:** **USDT** y **BNB** (conversión con **Chainlink BNB/USD** — `0x0567F2323251f0Aab15c8dFb1967E4e8A7D42aeE`).  
 
-**Entrega:** los tokens se **envían inmediatamente** al comprar (sin vesting en este contrato).  
+**Entrega:** tokens **enviados en el momento de la compra** (sin vesting para el comprador en este contrato).  
 
-**Políticas operativas:** límites mínimos/máximos por transacción/cartera y listas de acceso pueden ser **ajustadas on-chain** y **publicadas** en los canales oficiales.  
+**Políticas operativas:** límites mínimos/máximos por transacción/billetera y listas de acceso pueden **ajustarse on-chain** y **publicarse** en los canales oficiales.  
 
-**Finalización y transparencia:** al terminar, los tokens **no vendidos** pueden ser **quemados**.  
+**Finalización y transparencia:** al concluir, los tokens **no vendidos** pueden ser **quemados**.  
 
 ---
 
@@ -132,8 +132,8 @@ Si **`presaleSoldOut = true`** y **antes del 01/01/2027**, se puede **liberar an
 
 La gobernanza es **temporal y rastreable**, operando 100% mediante contratos.  
 Las decisiones estructurales se documentan en tiempo real.  
-El fundador **no tiene acceso directo** a fondos, liquidez o contratos — la **cartera del fundador** está **bloqueada durante 12 meses**.  
-La soberanía reside en la **estructura**, no en la figura.  
+El fundador **no tiene acceso directo** a fondos, liquidez o contratos — la **billetera del fundador** está bloqueada por **12 meses**.  
+La soberanía está en la **estructura**, no en la figura.  
 
 ---
 
@@ -142,12 +142,12 @@ La soberanía reside en la **estructura**, no en la figura.
 MoonRise no nació para especular.  
 Fue creada para **gobernar, ejecutar y construir** algo resistente a la censura y la manipulación.  
 
-> “La ejecución precede a la valoración. Aquellos que construyen, heredan.”  
+> “La ejecución precede a la valorización. Aquellos que construyen, heredan.”  
 
 ---
 
 ## Aviso de Riesgo  
 
 Los criptoactivos son volátiles y pueden resultar en la pérdida total del capital invertido.  
-Nada en este documento constituye recomendación de inversión, ni asesoramiento legal, contable o fiscal.  
-Las traducciones se proporcionan para conveniencia; en caso de discrepancia, prevalece la versión en inglés.  
+Nada en este documento constituye una recomendación de inversión, asesoramiento legal, contable o fiscal.  
+Las traducciones se proporcionan por conveniencia; en caso de discrepancia, prevalece la versión en inglés.  

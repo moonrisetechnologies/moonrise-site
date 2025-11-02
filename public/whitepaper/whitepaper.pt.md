@@ -1,6 +1,6 @@
 # Whitepaper — MoonRise (PT-BR)
 
-**Última atualização:** 2025-10-01  
+**Última atualização:** 2025-10-27  
 
 ---
 
@@ -13,9 +13,9 @@ Não é promessa futura; é execução presente.
 Do contrato ao produto final, tudo é **rastreável e público**.  
 
 **Contratos oficiais (BSC):**  
-- **Token MRS:** `0x178A7Ef67fCBC4c3a1a7d4dAee511F21271b6908`  
-- **Captação inicial (pré-venda):** `0xdA89B77ef1770051685039911B64D2C6C2E85891`  
-- **MasterVault:** `0xe47B229af03996BdaB9ccb90E1123260c6eD67B3`  
+- **Token MRS:** `0x8169A998A15142C94d3F03E5C51c216870FBE157`  
+- **Captação inicial (pré-venda):** `0xe04765B7d6B4c9eDAc0a918b41D243e4F507082D`  
+- **MasterVault:** `0x732Dde35D139F764FCd642Ad7CDc633C2ED60DE6`  
 
 ---
 
@@ -54,17 +54,17 @@ A MoonRise opera por um conjunto de componentes desenvolvidos **100% in-house**:
 **Supply total (emitido):** **9.700.000.000 MRS**  
 **Queima inicial (no deploy):** **1.700.000.000 MRS**  
 **Supply pós-queima (ativo on-chain):** **8.000.000.000 MRS**  
-**Contrato oficial (MRS):** `0x178A7Ef67fCBC4c3a1a7d4dAee511F21271b6908`  
+**Contrato oficial (MRS):** `0x8169A998A15142C94d3F03E5C51c216870FBE157`  
 
 **Distribuição (sobre o supply pós-queima: 8,0B):**  
-- **Liquidez/DEX:** **6.000.000.000** (**75,00%**) — `0xe0a6A9293bbF5CCF121415aEA864ea6dcFA7c95F`  
-- **Marketing:** **750.000.000** (**9,375%**) — `0x2Feb4cc556cb470067DEa59A12542BEe5F1bd16B`  
-- **Desenvolvimento:** **630.000.000** (**7,875%**) — `0xaC5D1A8A83239B8a1b1AE06B28157c43f0b416E3`  
-- **Ecossistema:** **350.000.000** (**4,375%**) — `0xbc06CC9A2bc23EBC84F5512E66CffFa4eba6958d`  
-- **Reserva Estratégica:** **250.000.000** (**3,125%**) — `0x6C09dC3Dbc57e836CDB42FeF0321CeCac9233f66`  
-- **Founder (travado 12 meses):** **20.000.000** (**0,25%**) — `0x2d0D394CdD4AD1D185C28064C809C14fBd82f27b`  
+- **Liquidez/DEX:** **6.000.000.000** (**75,00%**) — `0xB25E9FD517b662CD5740dBB34F569f596E5f9992`  
+- **Marketing:** **700.000.000** (**7,21%**) — `0x0286f6AdE4635a736fe62F1355768122f4B282Ed`  
+- **Desenvolvimento:** **600.000.000** (**6,18%**) — `0xD9Acf6D88586f363b7732cC3D566121A6c6ff1CF`  
+- **Ecossistema:** **350.000.000** (**3,60%**) — `0x2C521F6BC51B31EA4a1D366bc2d692Caf8423149`  
+- **Reserva Estratégica:** **250.000.000** (**2,57%**) — `0xA91592ffD959110AE5aB1c6826725Cd939E783f8`  
+- **Founder (travado 12 meses):** **100.000.000** (**1,03%**) — `0x00Ac5b001854Dd5F6c10124E5c1EB2ddF9a0931A`  
 
-> **Origem dos tokens da captação:** saída on-chain da **carteira de Liquidez** `0xe0a6A9293bbF5CCF121415aEA864ea6dcFA7c95F` para o **contrato de captação** `0xdA89B77ef1770051685039911B64D2C6C2E85891`.  
+> **Origem dos tokens da captação:** saída on-chain da **carteira de Liquidez** `0xB25E9FD517b662CD5740dBB34F569f596E5f9992` para o **contrato de captação** `0xe04765B7d6B4c9eDAc0a918b41D243e4F507082D`.  
 
 > **Sem mint adicional.** Tokens **não vendidos** podem ser **queimados** para `0x000000000000000000000000000000000000dEaD`.  
 
@@ -97,26 +97,26 @@ Todas as movimentações são **rastreáveis** e executadas via **contratos inte
 
 ## 6. Supply Travado, Reservas e MasterVault  
 
-A MoonRise utiliza o contrato **MasterVault** (`0xe47B229af03996BdaB9ccb90E1123260c6eD67B3`) para controle, segurança e disciplina:  
+A MoonRise utiliza o contrato **MasterVault** (`0x732Dde35D139F764FCd642Ad7CDc633C2ED60DE6`) para controle, segurança e disciplina:  
 - desbloqueios por **cronograma imutável**;  
 - acesso manual impossibilitado;  
 - auditoria pública de **parcelas e saldos**.  
 
 **Carteiras sob MasterVault (oficiais):**  
-- **Liquidez:** `0xe0a6A9293bbF5CCF121415aEA864ea6dcFA7c95F`  
-- **Desenvolvimento:** `0xaC5D1A8A83239B8a1b1AE06B28157c43f0b416E3`  
-- **Marketing:** `0x2Feb4cc556cb470067DEa59A12542BEe5F1bd16B`  
-- **Ecossistema:** `0xbc06CC9A2bc23EBC84F5512E66CffFa4eba6958d`  
-- **Reserva Estratégica:** `0x6C09dC3Dbc57e836CDB42FeF0321CeCac9233f66`  
+- **Liquidez:** `0xB25E9FD517b662CD5740dBB34F569f596E5f9992`  
+- **Desenvolvimento:** `0xD9Acf6D88586f363b7732cC3D566121A6c6ff1CF`  
+- **Marketing:** `0x0286f6AdE4635a736fe62F1355768122f4B282Ed`  
+- **Ecossistema:** `0x2C521F6BC51B31EA4a1D366bc2d692Caf8423149`  
+- **Reserva Estratégica:** `0xA91592ffD959110AE5aB1c6826725Cd939E783f8`  
 
 **Cláusula de contingência (on-chain):**  
-Se **`presaleSoldOut = true`** e **antes de 01/01/2027**, é possível **liberar antecipadamente** apenas a **última parcela** de **Liquidez (350M)** e de **Ecossistema (50M)** — uso **excepcional** e **auditável**.  
+Se **`presaleSoldOut = true`** e **antes de 05/04/2026**, é possível **liberar antecipadamente** apenas as **2 últimas parcelas** de **Liquidez (800M)** e de **Ecossistema (50M)** — uso **excepcional** e **auditável**.  
 
 ---
 
 ## 7. Pré-venda Inicial  
 
-**Contrato:** `0xdA89B77ef1770051685039911B64D2C6C2E85891`  
+**Contrato:** `0xe04765B7d6B4c9eDAc0a918b41D243e4F507082D`  
 
 **Moedas aceitas:** **USDT** e **BNB** (conversão com **Chainlink BNB/USD** — `0x0567F2323251f0Aab15c8dFb1967E4e8A7D42aeE`).  
 
